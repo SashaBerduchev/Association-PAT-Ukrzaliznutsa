@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91D8E00B-C257-4B4C-9FAD-8355EADD8C4D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Association_PAT_Ukrzaliznutsa</RootNamespace>
+    <AssemblyName>Association PAT Ukrzaliznutsa</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.18.3, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.18.3.0\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess.EntityFramework, Version=6.122.18.3, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.EntityFramework.18.3.0\lib\net45\Oracle.ManagedDataAccess.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AddingInformationWindow\AddContragent.xaml.cs">
+      <DependentUpon>AddContragent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\AddLocomotive.xaml.cs">
+      <DependentUpon>AddLocomotive.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\AddMail.xaml.cs">
+      <DependentUpon>AddMail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\AddProdaction.xaml.cs">
+      <DependentUpon>AddProdaction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\AddTrainsInfo.xaml.cs">
+      <DependentUpon>AddTrainsInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\AddTypeLocomotive.xaml.cs">
+      <DependentUpon>AddTypeLocomotive.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\AddVagonType.xaml.cs">
+      <DependentUpon>AddVagonType.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\LocomotiveInformation.xaml.cs">
+      <DependentUpon>LocomotiveInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\MailInfo.xaml.cs">
+      <DependentUpon>MailInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\TrainsInformation.xaml.cs">
+      <DependentUpon>TrainsInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ComentsSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EMail\MailWorks.xaml.cs">
+      <DependentUpon>MailWorks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IContract.cs" />
+    <Compile Include="KlientsSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Login\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LokomotiveSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MailSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MarshruteInfoWindow\CreateMarshrute.xaml.cs">
+      <DependentUpon>CreateMarshrute.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MarshrutesSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NaselennuyPunktSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProdactionSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Service\ListKlients.cs" />
+    <Compile Include="Service\ListLocomotive.cs" />
+    <Compile Include="Service\ListMail.cs" />
+    <Compile Include="Service\ListMarshrutes.cs" />
+    <Compile Include="Service\ListOrder.cs" />
+    <Compile Include="Service\ListProdact.cs" />
+    <Compile Include="Service\ListPunkt.cs" />
+    <Compile Include="Service\ListTrainsInfo.cs" />
+    <Compile Include="Service\ListTypeLocomotive.cs" />
+    <Compile Include="Service\ListUser.cs" />
+    <Compile Include="Service\ListVagonType.cs" />
+    <Compile Include="TicketSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tickets\CreateOrder.xaml.cs">
+      <DependentUpon>CreateOrder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tickets\CreateTicket.xaml.cs">
+      <DependentUpon>CreateTicket.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TrainsInfoSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TrainTypeSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TypeLocomotiveSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UkrzaliznytsaEDMX.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UkrzaliznytsaEDMX.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UkrzaliznytsaEDMX.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UkrzaliznytsaEDMX.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UkrzaliznytsaEDMX.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="UkrzaliznytsaServerServise\UZService.cs" />
+    <Compile Include="AddingInformationWindow\AddNaselennuyPunkt.xaml.cs">
+      <DependentUpon>AddNaselennuyPunkt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\NaselennuyPunktInfo.xaml.cs">
+      <DependentUpon>NaselennuyPunktInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UsersSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VagonTypeSet.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
+    <Page Include="AddingInformationWindow\AddContragent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\AddLocomotive.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\AddMail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\AddProdaction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\AddTrainsInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\AddTypeLocomotive.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\AddVagonType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\LocomotiveInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\MailInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\TrainsInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EMail\MailWorks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="AddingInformationWindow\AddNaselennuyPunkt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\NaselennuyPunktInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MarshruteInfoWindow\CreateMarshrute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tickets\CreateOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tickets\CreateTicket.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EntityDeploy Include="UkrzaliznytsaEDMX.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>UkrzaliznytsaEDMX.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="UkrzaliznytsaEDMX.edmx.diagram">
+      <DependentUpon>UkrzaliznytsaEDMX.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UkrzaliznytsaEDMX.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>UkrzaliznytsaEDMX.edmx</DependentUpon>
+      <LastGenOutput>UkrzaliznytsaEDMX.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="UkrzaliznytsaEDMX.edmx.sql" />
+    <Content Include="UkrzaliznytsaEDMX.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>UkrzaliznytsaEDMX.edmx</DependentUpon>
+      <LastGenOutput>UkrzaliznytsaEDMX.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

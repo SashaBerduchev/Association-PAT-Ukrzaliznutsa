@@ -1,0 +1,108 @@
+﻿<Window x:Class="Association_PAT_Ukrzaliznutsa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Association_PAT_Ukrzaliznutsa"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="1000">
+    <Grid>
+        <TabControl Name="nabcontrol" Grid.Column="0" Grid.Row="0" Margin="0,10,0,-10" >
+            <TabItem Name="tabAdd" Header="Формирование информации">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Button Name="btnAddNaselenPunkt" Grid.Column="0" Grid.Row="0" Margin="20" Content="Населенные пункты" Click="BtnAddNaselenPunkt_Click" />
+                    <Button Name="btnAddLocomotive" Grid.Column="0" Grid.Row="1" Margin="20" Content="Добавить локомотив" Click="BtnAddLocomotive_Click" />
+                    <Button Name="btnAddLocomotiveType" Grid.Column="1" Grid.Row="0" Margin="20" Content="Типы локомотивов" Click="BtnAddLocomotiveType_Click"  />
+                    <Button Name="btnAddVagonType" Grid.Column="1" Grid.Row="1" Margin="20" Content="Типы вагонов" Click="BtnAddVagonType_Click"  />
+                    <Button Name="btnAddVagon" Grid.Column="1" Grid.Row="2" Margin="20" Content="Тип поезда" Click="BtnAddVagon_Click" />
+                    <Button Name="btnAddMail" Grid.Column="0" Grid.Row="2" Margin="20" Content="Почтотвые адреса" Click="BtnAddMail_Click" />
+                    <Button Name="btn_contragent" Grid.Column="2" Margin="20" Content="Регистрация предприятия" Click="Btn_contragent_Click" />
+                    <Button Name="btn_prodaction" Grid.Column="2" Grid.Row="1" Margin="20" Content="Добавить продукцию" Click="Btn_prodaction_Click"  />
+                    <Button Name="btn_update" Grid.Column="2" Grid.Row="2" Margin="20" Content="Обновить" Click="Btn_update_Click"  />
+                    <ListBox Name="listcontragent" Grid.Column="4" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+                    <ListBox Name="listprodact" Grid.Column="6" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+                </Grid>
+            </TabItem>
+            <TabItem Name="MarshruteInfo" Header="Информаци о маршрутах">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button Name="AddMarshrute" Grid.Column="0" Grid.Row="0" Margin="20" Content="Сформировать маршрут" Click="AddMarshrute_Click" />
+                    <Button Name="Load" Content="Загрузить" Grid.Column="1"  Margin="20" Click="Load_Click"/>
+                    <Button Name="Print" Content="Печать" Grid.Column="4"  Margin="20" Click="Print_Click"/>
+                    <Button Name="btnMail" Content="Почта" Grid.Column="5"  Margin="20" Click="BtnMail_Click"  />
+                    <ListBox Name="listbox" Grid.Column="0" Grid.Row="2" Grid.RowSpan="5" Grid.ColumnSpan="7"/>
+                    <ComboBox Name="numbertrain" Grid.Column="0" Grid.Row="1" Margin="25" />
+                    <ComboBox Name="pointstart" Grid.Column="1" Grid.Row="1" Margin="25"  />
+                    <ComboBox Name="pointend" Grid.Column="2" Grid.Row="1" Margin="25"   />
+                    <ComboBox Name="typetrain" Grid.Column="3" Grid.Row="1" Margin="25"  />
+                    <Button Name="btnSert" Grid.Column="2" Grid.Row="0" Margin="20" Content="Сортировка" Click="BtnSert_Click"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Формирование билета">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button Name="btnSetTicket" Grid.Column="0" Grid.Row="0" Content="Создать билет" Margin="20" Click="BtnSetTicket_Click" />
+                    <Button Name="btnCreateOrder" Grid.Column="1" Grid.Row="0" Margin="20" Content="Оформить заказ" Click="BtnCreateOrder_Click"/>
+                    <Button Name="btnLoadingInfo" Grid.Column="3" Grid.Row="0" Content="Загрзить заказы" Margin="20" Click="BtnLoadingInfo_Click_1" />
+                    <DataGrid Name="orderloadgrid" Grid.Column="0" Grid.Row="2" Grid.RowSpan="3" Grid.ColumnSpan="5"/>
+                    <ComboBox Name="Number" Grid.Column="0" Grid.Row="1" Margin="30"/>
+                    <ComboBox Name="PointStart" Grid.Column="1" Grid.Row="1" Margin="30"/>
+                    <ComboBox Name="PointEnd" Grid.Column="2" Grid.Row="1" Margin="30"/>
+                    <ComboBox Name="TypeTrain" Grid.Column="3" Grid.Row="1" Margin="30"/>
+                    <Button Name="ticketloadgrid" Grid.Column="4" Grid.Row="0" Margin="30" Content="Загрузить билеты" Click="Ticketloadgrid_Click"/>
+                    <Button Name="btnPrintOrder" Grid.Column="5" Grid.Row="0" Margin="30" Content="Печать" Click="BtnPrintOrder_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

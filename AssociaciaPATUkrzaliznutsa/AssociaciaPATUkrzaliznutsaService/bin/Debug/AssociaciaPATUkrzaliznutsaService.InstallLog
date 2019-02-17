@@ -1,0 +1,381 @@
+﻿Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security, State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+При выполнении программы установки System.ServiceProcess.ServiceProcessInstaller на этапе отката возникло исключение.
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security, State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security, State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security, State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: Security, State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+При выполнении программы установки System.Diagnostics.EventLogInstaller на этапе отката возникло исключение.
+System.Security.SecurityException: Источник не найден, но не удалось выполнить поиск по нескольким или всем журналам событий.  Недоступные журналы: State.
+На этапе отката процедуры установки возникло исключение. Это исключение будет проигнорировано, и откат будет продолжен. Однако после завершения отката компьютер может не вернуться полностью в исходное состояние.
+Выполняется установка сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется откат для сборки 'D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.

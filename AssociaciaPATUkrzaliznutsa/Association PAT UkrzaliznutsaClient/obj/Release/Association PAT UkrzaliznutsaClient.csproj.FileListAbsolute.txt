@@ -1,0 +1,148 @@
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.exe.config
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.exe
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.pdb
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\MainWindow.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotive.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveType.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddNaselennuyPunkt.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\Locomotiveinfo.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\NaselennuyPunktInfo.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\App.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient_MarkupCompile.cache
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient_MarkupCompile.lref
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\MainWindow.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddNaselennuyPunkt.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\NaselennuyPunktInfo.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotive.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveType.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\Locomotiveinfo.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.g.resources
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association_PAT_UkrzaliznutsaClient.Properties.Resources.resources
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csproj.GenerateResource.cache
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csproj.CoreCompileInputs.cache
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.exe
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.pdb
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csprojAssemblyReference.cache
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorks.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Login\LoginWindow.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateOrder.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateTicket.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragent.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddProdaction.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorks.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Login\LoginWindow.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateOrder.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateTicket.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragent.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddProdaction.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.exe.config
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.exe
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.pdb
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csprojAssemblyReference.cache
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorks.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Login\LoginWindow.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\MainWindow.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateOrder.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateTicket.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragent.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotive.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveType.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddNaselennuyPunkt.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddProdaction.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\Locomotiveinfo.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\NaselennuyPunktInfo.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\App.g.cs
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient_MarkupCompile.cache
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient_MarkupCompile.lref
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorks.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Login\LoginWindow.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\MainWindow.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateOrder.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateTicket.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragent.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotive.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveType.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddNaselennuyPunkt.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddProdaction.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\Locomotiveinfo.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\NaselennuyPunktInfo.baml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.g.resources
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association_PAT_UkrzaliznutsaClient.Properties.Resources.resources
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csproj.GenerateResource.cache
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csproj.CoreCompileInputs.cache
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.exe
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.pdb
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.exe.config
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.exe
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.pdb
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csprojAssemblyReference.cache
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorks.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Login\LoginWindow.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\MainWindow.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateOrder.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateTicket.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragent.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotive.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveType.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddNaselennuyPunkt.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddProdaction.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\Locomotiveinfo.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\NaselennuyPunktInfo.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\App.g.cs
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient_MarkupCompile.cache
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient_MarkupCompile.lref
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorks.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Login\LoginWindow.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\MainWindow.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateOrder.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateTicket.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragent.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotive.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveType.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddNaselennuyPunkt.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddProdaction.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\Locomotiveinfo.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\NaselennuyPunktInfo.baml
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.g.resources
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association_PAT_UkrzaliznutsaClient.Properties.Resources.resources
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csproj.GenerateResource.cache
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csproj.CoreCompileInputs.cache
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.exe
+F:\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.pdb
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.exe.config
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.exe
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.pdb
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csprojAssemblyReference.cache
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorks.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Login\LoginWindow.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\MainWindow.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateOrder.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateTicket.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragent.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotive.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveType.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddNaselennuyPunkt.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddProdaction.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\Locomotiveinfo.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\NaselennuyPunktInfo.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\App.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient_MarkupCompile.cache
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient_MarkupCompile.lref
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorks.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Login\LoginWindow.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\MainWindow.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateOrder.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateTicket.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragent.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotive.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveType.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddNaselennuyPunkt.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddProdaction.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\Locomotiveinfo.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\NaselennuyPunktInfo.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.g.resources
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association_PAT_UkrzaliznutsaClient.Properties.Resources.resources
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csproj.GenerateResource.cache
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csproj.CoreCompileInputs.cache
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.exe
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.pdb

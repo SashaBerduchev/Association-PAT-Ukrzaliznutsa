@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="UkrzaliznutsaDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ComentsSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Marshrute" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Coment" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="KlientsSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NameKlient" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Prodaction" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="VagonType" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="User" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LokomotiveSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Type" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Velocity" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PowerEngin" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Photo" Type="varbinary(max)" Nullable="false" />
+          <Property Name="PDF" Type="varbinary(max)" Nullable="false" />
+          <Property Name="Information" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MailSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MailName" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MarshrutesSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NumberTrain" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PointStart" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PointEnd" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="TypeTrain" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="TypeLocomotive" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Locomotive" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Photo" Type="varbinary(max)" Nullable="false" />
+          <Property Name="PDF" Type="varbinary(max)" Nullable="false" />
+          <Property Name="TypeVagon" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="NaselennuyPunktSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NamePunkt" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="OrderSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Number" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ContragentFrom" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PointStart" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ContragentTo" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PointEnd" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="TypeVagon" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PriceOfOrder" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Photo" Type="varbinary(max)" Nullable="false" />
+          <Property Name="OrderPhoto" Type="varbinary(max)" Nullable="false" />
+          <Property Name="InformationOfOrder" Type="varbinary(max)" Nullable="false" />
+          <Property Name="TypeLocomotive" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Locomotive" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Marshrute" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ProdactionInformation" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="AllInformation" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ProdactionSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProdactionName" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ProdactionCount" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ProdactionCost" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TicketSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="User" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Number" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PointStart" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PointEnd" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="TypeVagon" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Price" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Photo" Type="varbinary(max)" Nullable="false" />
+          <Property Name="Information" Type="varbinary(max)" Nullable="false" />
+          <Property Name="Marshrute" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TrainsInfoSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Number" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Locomotive" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="TypeLocomotive" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="TypeVagon" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Length" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="LocomotivePowerEngine" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Photo" Type="varbinary(max)" Nullable="false" />
+          <Property Name="PDF" Type="varbinary(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TrainTypeSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Type" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TypeLocomotiveSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Type" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UsersSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VagonTypeSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Type" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="UkrzaliznutsaDBModelStoreContainer">
+          <EntitySet Name="ComentsSet" EntityType="Self.ComentsSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="KlientsSet" EntityType="Self.KlientsSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LokomotiveSet" EntityType="Self.LokomotiveSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MailSet" EntityType="Self.MailSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MarshrutesSet" EntityType="Self.MarshrutesSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NaselennuyPunktSet" EntityType="Self.NaselennuyPunktSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="OrderSet" EntityType="Self.OrderSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProdactionSet" EntityType="Self.ProdactionSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TicketSet" EntityType="Self.TicketSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TrainsInfoSet" EntityType="Self.TrainsInfoSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TrainTypeSet" EntityType="Self.TrainTypeSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TypeLocomotiveSet" EntityType="Self.TypeLocomotiveSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UsersSet" EntityType="Self.UsersSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="VagonTypeSet" EntityType="Self.VagonTypeSet" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="UkrzaliznutsaDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="KlientsSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NameKlient" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Prodaction" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="VagonType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="User" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="LokomotiveSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Velocity" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PowerEngin" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="PDF" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="Information" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="MailSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MailName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MarshrutesSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NumberTrain" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PointStart" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PointEnd" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TypeTrain" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TypeLocomotive" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Locomotive" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="PDF" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="TypeVagon" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="NaselennuyPunktSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NamePunkt" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TicketSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Number" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PointStart" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="PointEnd" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TypeVagon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Price" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="Information" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="Marshrute" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TrainsInfoSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Number" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Locomotive" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TypeLocomotive" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="TypeVagon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Length" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="LocomotivePowerEngine" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+          <Property Name="PDF" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TrainTypeSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TypeLocomotiveSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UsersSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VagonTypeSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="UkrzaliznutsaDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="KlientsSet" EntityType="Self.KlientsSet" />
+          <EntitySet Name="LokomotiveSet" EntityType="Self.LokomotiveSet" />
+          <EntitySet Name="MailSet" EntityType="Self.MailSet" />
+          <EntitySet Name="MarshrutesSet" EntityType="Self.MarshrutesSet" />
+          <EntitySet Name="NaselennuyPunktSet" EntityType="Self.NaselennuyPunktSet" />
+          <EntitySet Name="TicketSet" EntityType="Self.TicketSet" />
+          <EntitySet Name="TrainsInfoSet" EntityType="Self.TrainsInfoSet" />
+          <EntitySet Name="TrainTypeSet" EntityType="Self.TrainTypeSet" />
+          <EntitySet Name="TypeLocomotiveSet" EntityType="Self.TypeLocomotiveSet" />
+          <EntitySet Name="UsersSet" EntityType="Self.UsersSet" />
+          <EntitySet Name="VagonTypeSet" EntityType="Self.VagonTypeSet" />
+          <EntitySet Name="OrderSet" EntityType="UkrzaliznutsaDBModel.OrderSet" />
+          <EntitySet Name="ProdactionSet" EntityType="UkrzaliznutsaDBModel.ProdactionSet" />
+          <EntitySet Name="ComentsSet" EntityType="UkrzaliznutsaDBModel.ComentsSet" />
+        </EntityContainer>
+        <EntityType Name="OrderSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Number" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ContragentFrom" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PointStart" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ContragentTo" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PointEnd" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="TypeVagon" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PriceOfOrder" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Photo" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+          <Property Name="OrderPhoto" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+          <Property Name="InformationOfOrder" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+          <Property Name="TypeLocomotive" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Locomotive" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Marshrute" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ProdactionInformation" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="AllInformation" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="ProdactionSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProdactionName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ProdactionCount" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ProdactionCost" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ComentsSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="User" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Marshrute" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Coment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UkrzaliznutsaDBModelStoreContainer" CdmEntityContainer="UkrzaliznutsaDBEntities">
+    <EntitySetMapping Name="KlientsSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.KlientsSet)">
+        <MappingFragment StoreEntitySet="KlientsSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NameKlient" ColumnName="NameKlient" />
+          <ScalarProperty Name="Prodaction" ColumnName="Prodaction" />
+          <ScalarProperty Name="VagonType" ColumnName="VagonType" />
+          <ScalarProperty Name="User" ColumnName="User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LokomotiveSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.LokomotiveSet)">
+        <MappingFragment StoreEntitySet="LokomotiveSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Velocity" ColumnName="Velocity" />
+          <ScalarProperty Name="PowerEngin" ColumnName="PowerEngin" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="PDF" ColumnName="PDF" />
+          <ScalarProperty Name="Information" ColumnName="Information" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MailSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.MailSet)">
+        <MappingFragment StoreEntitySet="MailSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MailName" ColumnName="MailName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MarshrutesSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.MarshrutesSet)">
+        <MappingFragment StoreEntitySet="MarshrutesSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NumberTrain" ColumnName="NumberTrain" />
+          <ScalarProperty Name="PointStart" ColumnName="PointStart" />
+          <ScalarProperty Name="PointEnd" ColumnName="PointEnd" />
+          <ScalarProperty Name="TypeTrain" ColumnName="TypeTrain" />
+          <ScalarProperty Name="TypeLocomotive" ColumnName="TypeLocomotive" />
+          <ScalarProperty Name="Locomotive" ColumnName="Locomotive" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="PDF" ColumnName="PDF" />
+          <ScalarProperty Name="TypeVagon" ColumnName="TypeVagon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaselennuyPunktSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.NaselennuyPunktSet)">
+        <MappingFragment StoreEntitySet="NaselennuyPunktSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NamePunkt" ColumnName="NamePunkt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TicketSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.TicketSet)">
+        <MappingFragment StoreEntitySet="TicketSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="PointStart" ColumnName="PointStart" />
+          <ScalarProperty Name="PointEnd" ColumnName="PointEnd" />
+          <ScalarProperty Name="TypeVagon" ColumnName="TypeVagon" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Information" ColumnName="Information" />
+          <ScalarProperty Name="Marshrute" ColumnName="Marshrute" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainsInfoSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.TrainsInfoSet)">
+        <MappingFragment StoreEntitySet="TrainsInfoSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Locomotive" ColumnName="Locomotive" />
+          <ScalarProperty Name="TypeLocomotive" ColumnName="TypeLocomotive" />
+          <ScalarProperty Name="TypeVagon" ColumnName="TypeVagon" />
+          <ScalarProperty Name="Length" ColumnName="Length" />
+          <ScalarProperty Name="LocomotivePowerEngine" ColumnName="LocomotivePowerEngine" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="PDF" ColumnName="PDF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainTypeSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.TrainTypeSet)">
+        <MappingFragment StoreEntitySet="TrainTypeSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeLocomotiveSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.TypeLocomotiveSet)">
+        <MappingFragment StoreEntitySet="TypeLocomotiveSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsersSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.UsersSet)">
+        <MappingFragment StoreEntitySet="UsersSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VagonTypeSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.VagonTypeSet)">
+        <MappingFragment StoreEntitySet="VagonTypeSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.OrderSet)">
+        <MappingFragment StoreEntitySet="OrderSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="ContragentFrom" ColumnName="ContragentFrom" />
+          <ScalarProperty Name="PointStart" ColumnName="PointStart" />
+          <ScalarProperty Name="ContragentTo" ColumnName="ContragentTo" />
+          <ScalarProperty Name="PointEnd" ColumnName="PointEnd" />
+          <ScalarProperty Name="TypeVagon" ColumnName="TypeVagon" />
+          <ScalarProperty Name="PriceOfOrder" ColumnName="PriceOfOrder" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="OrderPhoto" ColumnName="OrderPhoto" />
+          <ScalarProperty Name="InformationOfOrder" ColumnName="InformationOfOrder" />
+          <ScalarProperty Name="TypeLocomotive" ColumnName="TypeLocomotive" />
+          <ScalarProperty Name="Locomotive" ColumnName="Locomotive" />
+          <ScalarProperty Name="Marshrute" ColumnName="Marshrute" />
+          <ScalarProperty Name="ProdactionInformation" ColumnName="ProdactionInformation" />
+          <ScalarProperty Name="AllInformation" ColumnName="AllInformation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProdactionSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.ProdactionSet)">
+        <MappingFragment StoreEntitySet="ProdactionSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProdactionName" ColumnName="ProdactionName" />
+          <ScalarProperty Name="ProdactionCount" ColumnName="ProdactionCount" />
+          <ScalarProperty Name="ProdactionCost" ColumnName="ProdactionCost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ComentsSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.ComentsSet)">
+        <MappingFragment StoreEntitySet="ComentsSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Marshrute" ColumnName="Marshrute" />
+          <ScalarProperty Name="Coment" ColumnName="Coment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

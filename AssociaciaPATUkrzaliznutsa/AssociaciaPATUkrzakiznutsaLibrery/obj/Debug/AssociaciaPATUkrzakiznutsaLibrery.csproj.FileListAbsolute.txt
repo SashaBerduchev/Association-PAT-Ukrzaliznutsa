@@ -1,0 +1,34 @@
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.csproj.CoreCompileInputs.cache
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\AssociaciaPATUkrzakiznutsaLibrery.dll.config
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\AssociaciaPATUkrzakiznutsaLibrery.dll
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\AssociaciaPATUkrzakiznutsaLibrery.pdb
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\Association PAT Ukrzaliznutsa.exe
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.dll
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.SqlServer.dll
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\Association PAT Ukrzaliznutsa.pdb
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\Association PAT Ukrzaliznutsa.exe.config
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.xml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.SqlServer.xml
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\ru\EntityFramework.resources.dll
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.csproj.CopyComplete
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.dll
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.pdb
+D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.csprojAssemblyReference.cache
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\AssociaciaPATUkrzakiznutsaLibrery.dll.config
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\AssociaciaPATUkrzakiznutsaLibrery.dll
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\AssociaciaPATUkrzakiznutsaLibrery.pdb
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\Association PAT Ukrzaliznutsa.exe
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.dll
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.SqlServer.dll
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\Association PAT Ukrzaliznutsa.pdb
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\Association PAT Ukrzaliznutsa.exe.config
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.xml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.SqlServer.xml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\ru\EntityFramework.resources.dll
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.csprojAssemblyReference.cache
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.csproj.CoreCompileInputs.cache
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.csproj.CopyComplete
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.dll
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.pdb

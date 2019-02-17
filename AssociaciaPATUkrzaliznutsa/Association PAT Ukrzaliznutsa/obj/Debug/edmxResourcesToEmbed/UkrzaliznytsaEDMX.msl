@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UkrzaliznutsaDBModelStoreContainer" CdmEntityContainer="UkrzaliznutsaDBEntities">
+    <EntitySetMapping Name="KlientsSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.KlientsSet)">
+        <MappingFragment StoreEntitySet="KlientsSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NameKlient" ColumnName="NameKlient" />
+          <ScalarProperty Name="Prodaction" ColumnName="Prodaction" />
+          <ScalarProperty Name="VagonType" ColumnName="VagonType" />
+          <ScalarProperty Name="User" ColumnName="User" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LokomotiveSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.LokomotiveSet)">
+        <MappingFragment StoreEntitySet="LokomotiveSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Velocity" ColumnName="Velocity" />
+          <ScalarProperty Name="PowerEngin" ColumnName="PowerEngin" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="PDF" ColumnName="PDF" />
+          <ScalarProperty Name="Information" ColumnName="Information" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MailSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.MailSet)">
+        <MappingFragment StoreEntitySet="MailSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="MailName" ColumnName="MailName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MarshrutesSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.MarshrutesSet)">
+        <MappingFragment StoreEntitySet="MarshrutesSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NumberTrain" ColumnName="NumberTrain" />
+          <ScalarProperty Name="PointStart" ColumnName="PointStart" />
+          <ScalarProperty Name="PointEnd" ColumnName="PointEnd" />
+          <ScalarProperty Name="TypeTrain" ColumnName="TypeTrain" />
+          <ScalarProperty Name="TypeLocomotive" ColumnName="TypeLocomotive" />
+          <ScalarProperty Name="Locomotive" ColumnName="Locomotive" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="PDF" ColumnName="PDF" />
+          <ScalarProperty Name="TypeVagon" ColumnName="TypeVagon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NaselennuyPunktSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.NaselennuyPunktSet)">
+        <MappingFragment StoreEntitySet="NaselennuyPunktSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NamePunkt" ColumnName="NamePunkt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TicketSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.TicketSet)">
+        <MappingFragment StoreEntitySet="TicketSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="PointStart" ColumnName="PointStart" />
+          <ScalarProperty Name="PointEnd" ColumnName="PointEnd" />
+          <ScalarProperty Name="TypeVagon" ColumnName="TypeVagon" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Information" ColumnName="Information" />
+          <ScalarProperty Name="Marshrute" ColumnName="Marshrute" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainsInfoSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.TrainsInfoSet)">
+        <MappingFragment StoreEntitySet="TrainsInfoSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Locomotive" ColumnName="Locomotive" />
+          <ScalarProperty Name="TypeLocomotive" ColumnName="TypeLocomotive" />
+          <ScalarProperty Name="TypeVagon" ColumnName="TypeVagon" />
+          <ScalarProperty Name="Length" ColumnName="Length" />
+          <ScalarProperty Name="LocomotivePowerEngine" ColumnName="LocomotivePowerEngine" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="PDF" ColumnName="PDF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainTypeSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.TrainTypeSet)">
+        <MappingFragment StoreEntitySet="TrainTypeSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeLocomotiveSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.TypeLocomotiveSet)">
+        <MappingFragment StoreEntitySet="TypeLocomotiveSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsersSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.UsersSet)">
+        <MappingFragment StoreEntitySet="UsersSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VagonTypeSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.VagonTypeSet)">
+        <MappingFragment StoreEntitySet="VagonTypeSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.OrderSet)">
+        <MappingFragment StoreEntitySet="OrderSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="ContragentFrom" ColumnName="ContragentFrom" />
+          <ScalarProperty Name="PointStart" ColumnName="PointStart" />
+          <ScalarProperty Name="ContragentTo" ColumnName="ContragentTo" />
+          <ScalarProperty Name="PointEnd" ColumnName="PointEnd" />
+          <ScalarProperty Name="TypeVagon" ColumnName="TypeVagon" />
+          <ScalarProperty Name="PriceOfOrder" ColumnName="PriceOfOrder" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="OrderPhoto" ColumnName="OrderPhoto" />
+          <ScalarProperty Name="InformationOfOrder" ColumnName="InformationOfOrder" />
+          <ScalarProperty Name="TypeLocomotive" ColumnName="TypeLocomotive" />
+          <ScalarProperty Name="Locomotive" ColumnName="Locomotive" />
+          <ScalarProperty Name="Marshrute" ColumnName="Marshrute" />
+          <ScalarProperty Name="ProdactionInformation" ColumnName="ProdactionInformation" />
+          <ScalarProperty Name="AllInformation" ColumnName="AllInformation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProdactionSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.ProdactionSet)">
+        <MappingFragment StoreEntitySet="ProdactionSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProdactionName" ColumnName="ProdactionName" />
+          <ScalarProperty Name="ProdactionCount" ColumnName="ProdactionCount" />
+          <ScalarProperty Name="ProdactionCost" ColumnName="ProdactionCost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ComentsSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.ComentsSet)">
+        <MappingFragment StoreEntitySet="ComentsSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="User" ColumnName="User" />
+          <ScalarProperty Name="Marshrute" ColumnName="Marshrute" />
+          <ScalarProperty Name="Coment" ColumnName="Coment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
