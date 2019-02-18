@@ -379,3 +379,16 @@ System.Security.SecurityException: Источник не найден, но не
    logfile = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
    assemblypath = D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
 Восстанавливается исходное состояние журнала событий для источника AssociaciaPATUkrzaliznutsaService.
+Выполняется установка сборки 'D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
+Устанавливается служба AssociaciaPATUkrzaliznutsaService...
+Служба AssociaciaPATUkrzaliznutsaService успешно установлена.
+Создается исходный EventLog AssociaciaPATUkrzaliznutsaService в журнале Application...
+Выполняется фиксация сборки 'D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe'.
+Затронуты следующие параметры:
+   logtoconsole = 
+   logfile = D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.InstallLog
+   assemblypath = D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzaliznutsaService\bin\Debug\AssociaciaPATUkrzaliznutsaService.exe
