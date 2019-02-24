@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace AssociaciaPATUkrzakiznutsaLibrery
 {
     [ServiceContract]
-    public interface IMyClass
+    public interface IContract
     {
         [OperationContract]
         void AddNaselenPunkt(string namepunkt);

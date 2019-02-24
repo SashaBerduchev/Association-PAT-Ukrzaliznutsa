@@ -18,7 +18,7 @@ namespace AssociaciaPATUkrzaliznutsaService
         {
             //initializeComponent();
             process = new ServiceProcessInstaller();
-            process.Account = ServiceAccount.LocalSystem;
+            process.Account = ServiceAccount.NetworkService;
             service = new ServiceInstaller();
             service.ServiceName = "AssociaciaPATUkrzaliznutsaService";
             service.DisplayName = "AssociaciaPATUkrzaliznutsaService";

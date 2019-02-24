@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AssociaciaPATUkrzakiznutsaLibrery
 {
-    public class MyClass : IMyClass
+    public class AssociaciaPATUkrzaliznytsaServer : IContract
     {
         UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
         List<ProdactionSet> prodactions;

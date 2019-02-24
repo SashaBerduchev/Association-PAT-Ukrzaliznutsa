@@ -49,8 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IMyClass.cs" />
-    <Compile Include="MyClass.cs" />
+    <Compile Include="IContract.cs" />
+    <Compile Include="AssociaciaPATUkrzaliznytsaServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

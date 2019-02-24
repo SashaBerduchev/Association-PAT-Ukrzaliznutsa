@@ -77,7 +77,7 @@ namespace Association_PAT_Ukrzaliznutsa
             List<string> marshdata;
             marshrutes = ukrzaliznutsaDBEntities.MarshrutesSet.ToList();
             marshdata = marshrutes.AsParallel().Select(x => x.NumberTrain+" "+x.Locomotive+" "+x.PointStart+" "+x.PointEnd +" "+x.TypeLocomotive+" "+x.TypeTrain + " "+x.TypeVagon ).ToList();
-            marshdata = marshdata.Take(10).ToList();
+            //marshdata = marshdata.Take(10).ToList();
             return marshdata;
         }
         public void setUserLogin(string login, string pass)
@@ -206,7 +206,7 @@ namespace Association_PAT_Ukrzaliznutsa
             List<string> orderlist;
             orders = ukrzaliznutsaDBEntities.OrderSet.ToList();
             orderlist = orders.AsParallel().Select(x =>x.User+" "+ x.Locomotive + " " + x.Marshrute + " " + x.Number + " " + x.PointStart + " " + x.PointEnd + " " + x.ProdactionInformation + " " + x.PriceOfOrder + " " + x.TypeVagon).ToList();
-            orderlist = orderlist.Take(10).ToList();
+            //orderlist = orderlist.Take(10).ToList();
             return orderlist;
         }
 
