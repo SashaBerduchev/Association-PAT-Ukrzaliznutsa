@@ -17,7 +17,7 @@ namespace AssociaciaPATUkrzaliznutsaService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new AssociaciaPATUkrzaliznutsaService()
             };
             ServiceBase.Run(ServicesToRun);
         }

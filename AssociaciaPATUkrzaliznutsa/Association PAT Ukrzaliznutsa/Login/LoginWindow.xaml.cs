@@ -39,6 +39,7 @@ namespace Association_PAT_Ukrzaliznutsa.Login
                 ukrzaliznutsaDBEntities.SaveChanges();
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
+                new LoginWindow().Close();
             }
             catch (Exception exp)
             {

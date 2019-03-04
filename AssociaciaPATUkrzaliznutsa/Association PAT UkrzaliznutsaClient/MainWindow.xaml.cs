@@ -29,7 +29,7 @@ namespace Association_PAT_UkrzaliznutsaClient
         IContract contract;
         public MainWindow()
         {
-            string endpPointStr = "net.tcp://DESKTOP-P31LSFP:4000/IContract";
+            string endpPointStr = "net.tcp://localhost:4000/IContract";
             //Uri uri = new Uri("net.tcp://localhost:4000/IContract");
             Uri uri = new Uri(endpPointStr);
             NetTcpBinding netTcpBinding = new NetTcpBinding();

@@ -20,16 +20,14 @@ namespace Association_PAT_Ukrzaliznutsa
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        IContract contract;
         
         private List<MarshrutesSet> marshrutes;
         private List<OrderSet> orders;
         public MainWindow()
         {
             InitializeComponent();
-
-            string uriAddress = "net.tcp://DESKTOP-P31LSFP:4000/IContract";
+            
+            string uriAddress = "net.tcp://localhost:4000/IContract";
             //Uri addres = new Uri("net.tcp://localhost:4000/IContract");
             Uri addres = new Uri(uriAddress);
             NetTcpBinding binding = new NetTcpBinding();

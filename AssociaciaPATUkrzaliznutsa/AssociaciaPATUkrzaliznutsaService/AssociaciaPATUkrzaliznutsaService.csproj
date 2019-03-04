@@ -53,11 +53,11 @@
     <Compile Include="MyServiceInstaller.Designer.cs">
       <DependentUpon>MyServiceInstaller.cs</DependentUpon>
     </Compile>
-    <Compile Include="Service1.cs">
+    <Compile Include="AssociaciaPATUkrzaliznutsaService.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Service1.Designer.cs">
-      <DependentUpon>Service1.cs</DependentUpon>
+    <Compile Include="AssociaciaPATUkrzaliznutsaService.Designer.cs">
+      <DependentUpon>AssociaciaPATUkrzaliznutsaService.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -41,8 +41,7 @@ namespace Association_PAT_UkrzaliznutsaClient.Login
                 contract.setUserLogin(Name.Text, Pass.Password);
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
-                LoginWindow loginWindow = new LoginWindow();
-                loginWindow.Close();
+                new LoginWindow().Close();
             }catch(Exception exp)
             {
                 MessageBox.Show(exp.ToString(), "Warning", MessageBoxButton.OK, MessageBoxImage.Error);
