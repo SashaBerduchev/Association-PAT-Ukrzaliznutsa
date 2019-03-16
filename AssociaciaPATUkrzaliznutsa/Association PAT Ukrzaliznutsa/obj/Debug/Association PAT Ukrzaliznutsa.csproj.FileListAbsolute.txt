@@ -277,8 +277,6 @@ D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Uk
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Debug\ru\EntityFramework.resources.dll
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\Association PAT Ukrzaliznutsa.csprojAssemblyReference.cache
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddMail.g.cs
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddProdaction.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddTrainsInfo.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddTypeLocomotive.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddVagonType.g.cs
@@ -287,7 +285,6 @@ D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Uk
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\TrainsInformation.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\Login\LoginWindow.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\MainWindow.g.cs
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddNaselennuyPunkt.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\NaselennuyPunktInfo.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\MarshruteInfoWindow\CreateMarshrute.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\Tickets\CreateOrder.g.cs
@@ -296,8 +293,6 @@ D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Uk
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\Association PAT Ukrzaliznutsa_Content.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\Association PAT Ukrzaliznutsa_MarkupCompile.cache
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\Association PAT Ukrzaliznutsa_MarkupCompile.lref
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddMail.baml
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddProdaction.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddTrainsInfo.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddTypeLocomotive.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddVagonType.baml
@@ -306,7 +301,6 @@ D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Uk
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\TrainsInformation.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\Login\LoginWindow.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\MainWindow.baml
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddNaselennuyPunkt.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\NaselennuyPunktInfo.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\MarshruteInfoWindow\CreateMarshrute.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\Tickets\CreateOrder.baml
@@ -324,3 +318,9 @@ D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Uk
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddContragentWindow.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddLocomotiveWindow.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddLocomotiveWindow.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddMailWindow.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddMailWindow.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddNaselennuyPunktWindow.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddNaselennuyPunktWindow.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddProdactionWindow.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\AddingInformationWindow\AddProdactionWindow.baml

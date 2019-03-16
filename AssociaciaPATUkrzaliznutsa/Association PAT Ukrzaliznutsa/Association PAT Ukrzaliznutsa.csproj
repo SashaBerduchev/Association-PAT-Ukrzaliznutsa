@@ -97,11 +97,14 @@
     <Compile Include="AddingInformationWindow\AddLocomotiveWindow.xaml.cs">
       <DependentUpon>AddLocomotiveWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AddingInformationWindow\AddMail.xaml.cs">
-      <DependentUpon>AddMail.xaml</DependentUpon>
+    <Compile Include="AddingInformationWindow\AddMailWindow.xaml.cs">
+      <DependentUpon>AddMailWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AddingInformationWindow\AddProdaction.xaml.cs">
-      <DependentUpon>AddProdaction.xaml</DependentUpon>
+    <Compile Include="AddingInformationWindow\AddNaselennuyPunktWindow.xaml.cs">
+      <DependentUpon>AddNaselennuyPunktWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\AddProdactionWindow.xaml.cs">
+      <DependentUpon>AddProdactionWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="AddingInformationWindow\AddTrainsInfo.xaml.cs">
       <DependentUpon>AddTrainsInfo.xaml</DependentUpon>
@@ -198,9 +201,6 @@
       <DependentUpon>UkrzaliznytsaEDMX.edmx</DependentUpon>
     </Compile>
     <Compile Include="UkrzaliznytsaServerServise\UZService.cs" />
-    <Compile Include="AddingInformationWindow\AddNaselennuyPunkt.xaml.cs">
-      <DependentUpon>AddNaselennuyPunkt.xaml</DependentUpon>
-    </Compile>
     <Compile Include="AddingInformationWindow\NaselennuyPunktInfo.xaml.cs">
       <DependentUpon>NaselennuyPunktInfo.xaml</DependentUpon>
     </Compile>
@@ -218,11 +218,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AddingInformationWindow\AddMail.xaml">
+    <Page Include="AddingInformationWindow\AddMailWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AddingInformationWindow\AddProdaction.xaml">
+    <Page Include="AddingInformationWindow\AddNaselennuyPunktWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\AddProdactionWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -270,10 +274,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="AddingInformationWindow\AddNaselennuyPunkt.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="AddingInformationWindow\NaselennuyPunktInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

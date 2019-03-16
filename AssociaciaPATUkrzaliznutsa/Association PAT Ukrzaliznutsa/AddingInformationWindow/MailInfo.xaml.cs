@@ -26,7 +26,7 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
 
         private void BtnAdd_Click(object sender, RoutedEventArgs e)
         {
-            AddMail addMail = new AddMail();
+            AddMailWindow addMail = new AddMailWindow();
             addMail.Show();
         }
 

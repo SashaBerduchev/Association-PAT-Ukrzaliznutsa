@@ -1,17 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Association_PAT_Ukrzaliznutsa.Login
 {
@@ -23,6 +14,8 @@ namespace Association_PAT_Ukrzaliznutsa.Login
         public LoginWindow()
         {
             InitializeComponent();
+            Type type = typeof(LoginWindow);
+            Trace.WriteLine(type.Name);
         }
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)

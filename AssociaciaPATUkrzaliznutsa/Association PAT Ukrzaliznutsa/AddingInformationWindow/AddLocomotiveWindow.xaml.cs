@@ -23,7 +23,7 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
             List<TypeLocomotiveSet> types;
             UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
             types = ukrzaliznutsaDBEntities.TypeLocomotiveSet.ToList();
-            Type.ItemsSource = types.Select(x => new { x.Type });
+            typesList.ItemsSource = types.Select(x => new { x.Type });
 
             Type type = typeof(AddLocomotiveWindow);
             Trace.WriteLine(type);
@@ -79,7 +79,7 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
                 {
                     Name = NameLocomotive.Text,
                     PowerEngin = Power.Text,
-                    Type = Type.SelectedItem.ToString(),
+                    Type = typesList.SelectedItem.ToString(),
                     Velocity = Velocity.Text,
                     Photo = photoload,
                     PDF = arrayread,

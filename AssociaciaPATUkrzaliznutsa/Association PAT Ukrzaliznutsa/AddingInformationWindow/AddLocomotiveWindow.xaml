@@ -22,7 +22,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBox Name="NameLocomotive" Grid.ColumnSpan="3" Margin="10"/>
-        <ComboBox Name="Type" Grid.Row="1" Margin="10" Grid.ColumnSpan="3"/>
+        <ComboBox Name="typesList" Grid.Row="1" Margin="10" Grid.ColumnSpan="3"/>
         <TextBox Name="Information" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="4"/>
         <TextBox Name="Velocity" Grid.Row="2" Margin="10"/>
         <TextBox Name="Power" Grid.Row="3" Margin="10"/>
