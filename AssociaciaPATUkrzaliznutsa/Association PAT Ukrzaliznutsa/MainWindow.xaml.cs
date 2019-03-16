@@ -5,6 +5,7 @@ using Association_PAT_Ukrzaliznutsa.Tickets;
 using Association_PAT_Ukrzaliznutsa.Windows;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.ServiceModel;
@@ -39,7 +40,9 @@ namespace Association_PAT_Ukrzaliznutsa
             ServiceHost serviceHost = new ServiceHost(typeof(UZService));
             serviceHost.AddServiceEndpoint(type, binding, uriAddress);
             serviceHost.Open();
-            
+
+            Type typen = typeof(MainWindow);
+            Trace.Write(message: typen.Name);
 
         }
 
@@ -254,7 +257,7 @@ namespace Association_PAT_Ukrzaliznutsa
 
         private void BtnMail_Click(object sender, RoutedEventArgs e)
         {
-            MailWorks mailWork = new MailWorks();
+            MailWorksWindow mailWork = new MailWorksWindow();
             mailWork.Show();
 
         }
@@ -268,7 +271,7 @@ namespace Association_PAT_Ukrzaliznutsa
 
         private void Btn_contragent_Click(object sender, RoutedEventArgs e)
         {
-            AddContragent addContragent = new AddContragent();
+            AddContragentWindow addContragent = new AddContragentWindow();
             addContragent.Show();
         }
 

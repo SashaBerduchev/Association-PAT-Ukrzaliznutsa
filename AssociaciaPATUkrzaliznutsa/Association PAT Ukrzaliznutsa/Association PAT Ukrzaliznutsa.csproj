@@ -91,11 +91,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AddingInformationWindow\AddContragent.xaml.cs">
-      <DependentUpon>AddContragent.xaml</DependentUpon>
+    <Compile Include="AddingInformationWindow\AddContragentWindow.xaml.cs">
+      <DependentUpon>AddContragentWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AddingInformationWindow\AddLocomotive.xaml.cs">
-      <DependentUpon>AddLocomotive.xaml</DependentUpon>
+    <Compile Include="AddingInformationWindow\AddLocomotiveWindow.xaml.cs">
+      <DependentUpon>AddLocomotiveWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="AddingInformationWindow\AddMail.xaml.cs">
       <DependentUpon>AddMail.xaml</DependentUpon>
@@ -124,8 +124,8 @@
     <Compile Include="ComentsSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>
-    <Compile Include="EMail\MailWorks.xaml.cs">
-      <DependentUpon>MailWorks.xaml</DependentUpon>
+    <Compile Include="EMail\MailWorksWindow.xaml.cs">
+      <DependentUpon>MailWorksWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="IContract.cs" />
     <Compile Include="KlientsSet.cs">
@@ -169,9 +169,7 @@
     <Compile Include="TicketSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>
-    <Compile Include="Tickets\CreateOrder.xaml.cs">
-      <DependentUpon>CreateOrder.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Tickets\CreateOrder.cs" />
     <Compile Include="Tickets\CreateTicket.xaml.cs">
       <DependentUpon>CreateTicket.xaml</DependentUpon>
     </Compile>
@@ -212,11 +210,11 @@
     <Compile Include="VagonTypeSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>
-    <Page Include="AddingInformationWindow\AddContragent.xaml">
+    <Page Include="AddingInformationWindow\AddContragentWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AddingInformationWindow\AddLocomotive.xaml">
+    <Page Include="AddingInformationWindow\AddLocomotiveWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -252,7 +250,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="EMail\MailWorks.xaml">
+    <Page Include="EMail\MailWorksWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

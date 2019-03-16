@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -18,6 +19,7 @@ namespace Association_PAT_Ukrzaliznutsa
             };
             ukrzaliznutsaDBEntities.NaselennuyPunktSet.Add(naselennuyPunkt);
             ukrzaliznutsaDBEntities.SaveChanges();
+            Trace.Write(message: "UZService");
         }
 
         public byte[] LoadNaselenPunkt()
