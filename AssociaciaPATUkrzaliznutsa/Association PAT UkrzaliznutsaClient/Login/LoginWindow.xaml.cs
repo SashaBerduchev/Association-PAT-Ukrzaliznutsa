@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.ServiceModel;
@@ -32,6 +33,9 @@ namespace Association_PAT_UkrzaliznutsaClient.Login
             ChannelFactory<IContract> factory = new ChannelFactory<IContract>(netTcpBinding, endpoint);
             contract = factory.CreateChannel();
             InitializeComponent();
+
+            Type type = typeof(LoginWindow);
+            Trace.WriteLine(type.Name);
         }
 
         private void BtnLogin_Click(object sender, RoutedEventArgs e)

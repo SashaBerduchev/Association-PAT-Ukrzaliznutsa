@@ -83,11 +83,11 @@
       <DependentUpon>LoginWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MarshrutesSet.cs" />
-    <Compile Include="Ticket\CreateOrder.xaml.cs">
-      <DependentUpon>CreateOrder.xaml</DependentUpon>
+    <Compile Include="Ticket\CreateOrderWindow.xaml.cs">
+      <DependentUpon>CreateOrderWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Ticket\CreateTicket.xaml.cs">
-      <DependentUpon>CreateTicket.xaml</DependentUpon>
+    <Compile Include="Ticket\CreateTicketWindow.xaml.cs">
+      <DependentUpon>CreateTicketWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\AddContragent.xaml.cs">
       <DependentUpon>AddContragent.xaml</DependentUpon>
@@ -131,11 +131,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Ticket\CreateOrder.xaml">
+    <Page Include="Ticket\CreateOrderWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Ticket\CreateTicket.xaml">
+    <Page Include="Ticket\CreateTicketWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

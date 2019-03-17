@@ -3,6 +3,7 @@ using Association_PAT_UkrzaliznutsaClient.Ticket;
 using Association_PAT_UkrzaliznutsaClient.Windows;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -44,6 +45,9 @@ namespace Association_PAT_UkrzaliznutsaClient
             pointstart.ItemsSource = contract.getPointStart();
             pointend.ItemsSource = contract.getPointEnd();
             typetrain.ItemsSource = contract.getTypeVagon();
+
+            Type type = typeof(MainWindow);
+            Trace.WriteLine(type.Name);
 
         }
 
@@ -124,7 +128,7 @@ namespace Association_PAT_UkrzaliznutsaClient
 
         private void BtnSetTicket_Click(object sender, RoutedEventArgs e)
         {
-            CreateTicket createTicket = new CreateTicket();
+            CreateTicketWindow createTicket = new CreateTicketWindow();
             createTicket.Show();
         }
 
@@ -152,7 +156,7 @@ namespace Association_PAT_UkrzaliznutsaClient
 
         private void BtnCreateOrder_Click(object sender, RoutedEventArgs e)
         {
-            CreateOrder createOrder = new CreateOrder();
+            CreateOrderWindow createOrder = new CreateOrderWindow();
             createOrder.Show();
         }
 
@@ -198,7 +202,7 @@ namespace Association_PAT_UkrzaliznutsaClient
 
         private void BtnCreateTicket_Click(object sender, RoutedEventArgs e)
         {
-            CreateTicket createTicket = new CreateTicket();
+            CreateTicketWindow createTicket = new CreateTicketWindow();
             createTicket.Show();
         }
 

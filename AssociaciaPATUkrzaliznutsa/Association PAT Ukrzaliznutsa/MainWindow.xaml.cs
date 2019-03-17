@@ -2,7 +2,6 @@
 using Association_PAT_Ukrzaliznutsa.EMail;
 using Association_PAT_Ukrzaliznutsa.MarshruteInfoWindow;
 using Association_PAT_Ukrzaliznutsa.Tickets;
-using Association_PAT_Ukrzaliznutsa.Windows;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -50,14 +49,14 @@ namespace Association_PAT_Ukrzaliznutsa
 
         private void BtnAddNaselenPunkt_Click(object sender, RoutedEventArgs e)
         {
-            NaselennuyPunktInfo naselennuyPunkt = new NaselennuyPunktInfo();
+            NaselennuyPunktInfoWindow naselennuyPunkt = new NaselennuyPunktInfoWindow();
             naselennuyPunkt.Show();
         }
 
 
         private void BtnAddLocomotive_Click(object sender, RoutedEventArgs e)
         {
-            LocomotiveInformation locomotiveInformation = new LocomotiveInformation();
+            LocomotiveInformationWindow locomotiveInformation = new LocomotiveInformationWindow();
             locomotiveInformation.Show();
         }
 
@@ -75,7 +74,7 @@ namespace Association_PAT_Ukrzaliznutsa
 
         private void BtnAddVagon_Click(object sender, RoutedEventArgs e)
         {
-            TrainsInformation trainsInformation = new TrainsInformation();
+            TrainsInformationWindow trainsInformation = new TrainsInformationWindow();
             trainsInformation.Show();
         }
 
@@ -251,7 +250,7 @@ namespace Association_PAT_Ukrzaliznutsa
 
         private void BtnAddMail_Click(object sender, RoutedEventArgs e)
         {
-            MailInfo mail = new MailInfo();
+            MailInfoWindow mail = new MailInfoWindow();
             mail.Show();
         }
 

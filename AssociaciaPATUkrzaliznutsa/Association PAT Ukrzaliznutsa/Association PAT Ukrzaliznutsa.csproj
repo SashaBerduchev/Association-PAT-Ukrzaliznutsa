@@ -115,14 +115,17 @@
     <Compile Include="AddingInformationWindow\AddVagonTypeWindow.xaml.cs">
       <DependentUpon>AddVagonTypeWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AddingInformationWindow\LocomotiveInformation.xaml.cs">
-      <DependentUpon>LocomotiveInformation.xaml</DependentUpon>
+    <Compile Include="AddingInformationWindow\LocomotiveInformationWindow.xaml.cs">
+      <DependentUpon>LocomotiveInformationWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AddingInformationWindow\MailInfo.xaml.cs">
-      <DependentUpon>MailInfo.xaml</DependentUpon>
+    <Compile Include="AddingInformationWindow\MailInfoWindow.xaml.cs">
+      <DependentUpon>MailInfoWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AddingInformationWindow\TrainsInformation.xaml.cs">
-      <DependentUpon>TrainsInformation.xaml</DependentUpon>
+    <Compile Include="AddingInformationWindow\NaselennuyPunktInfoWindow.xaml.cs">
+      <DependentUpon>NaselennuyPunktInfoWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddingInformationWindow\TrainsInformationWindow.xaml.cs">
+      <DependentUpon>TrainsInformationWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="ComentsSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
@@ -203,9 +206,6 @@
       <DependentUpon>UkrzaliznytsaEDMX.edmx</DependentUpon>
     </Compile>
     <Compile Include="UkrzaliznytsaServerServise\UZService.cs" />
-    <Compile Include="AddingInformationWindow\NaselennuyPunktInfo.xaml.cs">
-      <DependentUpon>NaselennuyPunktInfo.xaml</DependentUpon>
-    </Compile>
     <Compile Include="UsersSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>
@@ -244,15 +244,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AddingInformationWindow\LocomotiveInformation.xaml">
+    <Page Include="AddingInformationWindow\LocomotiveInformationWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AddingInformationWindow\MailInfo.xaml">
+    <Page Include="AddingInformationWindow\MailInfoWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AddingInformationWindow\TrainsInformation.xaml">
+    <Page Include="AddingInformationWindow\NaselennuyPunktInfoWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddingInformationWindow\TrainsInformationWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -276,10 +280,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="AddingInformationWindow\NaselennuyPunktInfo.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MarshruteInfoWindow\CreateMarshrute.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
