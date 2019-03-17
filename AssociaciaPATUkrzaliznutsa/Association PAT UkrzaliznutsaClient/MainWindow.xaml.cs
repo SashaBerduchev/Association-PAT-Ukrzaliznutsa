@@ -138,7 +138,7 @@ namespace Association_PAT_UkrzaliznutsaClient
 
         private void Btn_prodaction_Click(object sender, RoutedEventArgs e)
         {
-            AddProdaction addProdaction = new AddProdaction();
+            AddProdactionWindow addProdaction = new AddProdactionWindow();
             addProdaction.Show();
         }
 

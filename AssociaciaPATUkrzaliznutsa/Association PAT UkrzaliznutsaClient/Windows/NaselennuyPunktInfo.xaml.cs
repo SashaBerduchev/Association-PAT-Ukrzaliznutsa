@@ -34,7 +34,7 @@ namespace Association_PAT_UkrzaliznutsaClient.Windows
 
         private void BtnAdd_Click(object sender, RoutedEventArgs e)
         {
-            AddNaselennuyPunkt addNaselennuyPunkt = new AddNaselennuyPunkt();
+            AddNaselennuyPunktWindow addNaselennuyPunkt = new AddNaselennuyPunktWindow();
             addNaselennuyPunkt.Show();
         }
 

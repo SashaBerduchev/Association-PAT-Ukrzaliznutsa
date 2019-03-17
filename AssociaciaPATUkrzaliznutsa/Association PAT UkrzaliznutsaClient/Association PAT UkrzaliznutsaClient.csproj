@@ -98,11 +98,11 @@
     <Compile Include="Windows\AddLocomotiveWindow.xaml.cs">
       <DependentUpon>AddLocomotiveWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\AddNaselennuyPunkt.xaml.cs">
-      <DependentUpon>AddNaselennuyPunkt.xaml</DependentUpon>
+    <Compile Include="Windows\AddNaselennuyPunktWindow.xaml.cs">
+      <DependentUpon>AddNaselennuyPunktWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\AddProdaction.xaml.cs">
-      <DependentUpon>AddProdaction.xaml</DependentUpon>
+    <Compile Include="Windows\AddProdactionWindow.xaml.cs">
+      <DependentUpon>AddProdactionWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Locomotiveinfo.xaml.cs">
       <DependentUpon>Locomotiveinfo.xaml</DependentUpon>
@@ -151,11 +151,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\AddNaselennuyPunkt.xaml">
+    <Page Include="Windows\AddNaselennuyPunktWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\AddProdaction.xaml">
+    <Page Include="Windows\AddProdactionWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
