@@ -113,12 +113,9 @@ D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Uk
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.exe
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Release\Association PAT UkrzaliznutsaClient.pdb
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient.csprojAssemblyReference.cache
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorks.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Login\LoginWindow.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\MainWindow.g.cs
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragent.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotive.g.cs
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveType.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddNaselennuyPunkt.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddProdaction.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\Locomotiveinfo.g.cs
@@ -126,12 +123,9 @@ D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Uk
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\App.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient_MarkupCompile.cache
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Association PAT UkrzaliznutsaClient_MarkupCompile.lref
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorks.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Login\LoginWindow.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\MainWindow.baml
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragent.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotive.baml
-D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveType.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddNaselennuyPunkt.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddProdaction.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\Locomotiveinfo.baml
@@ -146,3 +140,9 @@ D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Uk
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateTicketWindow.g.cs
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateOrderWindow.baml
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Ticket\CreateTicketWindow.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorksWindows.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragentWindow.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\EMail\MailWorksWindows.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddContragentWindow.baml
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveWindow.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\Windows\AddLocomotiveWindow.baml

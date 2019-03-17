@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Association_PAT_Ukrzaliznutsa"
         mc:Ignorable="d"
-        Title="MainWindow" Height="650" Width="1000">
+        Title="MainWindow" Height="650" Width="1000" Icon="Associacia-PAT-Ukrzaliznutsa.ico">
     <Grid>
         <TabControl Name="nabcontrol" Grid.Column="0" Grid.Row="0" Margin="0,10,0,-10" >
             <TabItem Name="tabAdd" Header="Формирование информации">

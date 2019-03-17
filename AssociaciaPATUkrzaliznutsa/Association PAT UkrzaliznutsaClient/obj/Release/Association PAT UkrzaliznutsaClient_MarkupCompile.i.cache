@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Release\
 Association_PAT_UkrzaliznutsaClient
 none
 false
 TRACE
-D:\Progects\C-SHARP\Association-PAT-Ukrzaliznutsa\Association-PAT-Ukrzaliznutsa\Association PAT Ukrzaliznutsa\Association PAT UkrzaliznutsaClient\App.xaml
-12-733257392
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\App.xaml
+1285924692
 
-22-102316049
+221641223436
 141655474873
-EMail\MailWorks.xaml;Login\LoginWindow.xaml;MainWindow.xaml;Ticket\CreateOrder.xaml;Ticket\CreateTicket.xaml;Windows\AddContragent.xaml;Windows\AddLocomotive.xaml;Windows\AddLocomotiveType.xaml;Windows\AddNaselennuyPunkt.xaml;Windows\AddProdaction.xaml;Windows\Locomotiveinfo.xaml;Windows\NaselennuyPunktInfo.xaml;
+EMail\MailWorksWindows.xaml;Login\LoginWindow.xaml;MainWindow.xaml;Ticket\CreateOrderWindow.xaml;Ticket\CreateTicketWindow.xaml;Windows\AddContragentWindow.xaml;Windows\AddLocomotive.xaml;Windows\AddLocomotiveType.xaml;Windows\AddNaselennuyPunkt.xaml;Windows\AddProdaction.xaml;Windows\Locomotiveinfo.xaml;Windows\NaselennuyPunktInfo.xaml;
 
-True
+False
 

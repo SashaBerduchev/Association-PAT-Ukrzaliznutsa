@@ -30,6 +30,8 @@ namespace Association_PAT_UkrzaliznutsaClient
         IContract contract;
         public MainWindow()
         {
+
+            InitializeComponent();
             string endpPointStr = "net.tcp://localhost:4000/IContract";
             //Uri uri = new Uri("net.tcp://localhost:4000/IContract");
             Uri uri = new Uri(endpPointStr);
@@ -39,7 +41,7 @@ namespace Association_PAT_UkrzaliznutsaClient
             EndpointAddress endpoint = new EndpointAddress(uri);
             ChannelFactory<IContract> factory = new ChannelFactory<IContract>(netTcpBinding, endpoint);
             contract = factory.CreateChannel();
-            InitializeComponent();
+            
 
             numbertrain.ItemsSource = contract.getNumber();
             pointstart.ItemsSource = contract.getPointStart();
@@ -65,7 +67,7 @@ namespace Association_PAT_UkrzaliznutsaClient
 
         private void BtnAddLocomotiveType_Click(object sender, RoutedEventArgs e)
         {
-            AddLocomotiveType addLocomotiveType = new AddLocomotiveType();
+            AddLocomotiveWindow addLocomotiveType = new AddLocomotiveWindow();
             addLocomotiveType.Show();
         }
         
@@ -122,7 +124,7 @@ namespace Association_PAT_UkrzaliznutsaClient
 
         private void Btn_Mail_Click(object sender, RoutedEventArgs e)
         {
-            MailWorks mailWorks = new MailWorks();
+            MailWorksWindows mailWorks = new MailWorksWindows();
             mailWorks.Show();
         }
 
@@ -144,7 +146,7 @@ namespace Association_PAT_UkrzaliznutsaClient
 
         private void Btn_contragent_Click(object sender, RoutedEventArgs e)
         {
-            AddContragent addContragent = new AddContragent();
+            AddContragentWindow addContragent = new AddContragentWindow();
             addContragent.Show();
         }
 
