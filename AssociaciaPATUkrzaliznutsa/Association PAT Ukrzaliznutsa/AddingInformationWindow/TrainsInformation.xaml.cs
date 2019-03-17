@@ -26,7 +26,7 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
 
         private void BtnAdd_Click(object sender, RoutedEventArgs e)
         {
-            AddTrainsInfo addTrainsInfo = new AddTrainsInfo();
+            AddTrainsInfoWindow addTrainsInfo = new AddTrainsInfoWindow();
             addTrainsInfo.Show();
         }
 

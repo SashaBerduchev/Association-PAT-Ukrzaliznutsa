@@ -1,0 +1,17 @@
+﻿<Window x:Class="Association_PAT_Ukrzaliznutsa.AddingInformationWindow.AddTypeLocomotiveWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Association_PAT_Ukrzaliznutsa.AddingInformationWindow"
+        mc:Ignorable="d"
+        Title="AddTypeLocomotiveWindow" Height="250" Width="250">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBox Name="name" Margin="20"/>
+        <Button Name="Set" Content="Сохранить" Grid.Row="1" Margin="20" Click="Set_Click"/>
+    </Grid>
+</Window>

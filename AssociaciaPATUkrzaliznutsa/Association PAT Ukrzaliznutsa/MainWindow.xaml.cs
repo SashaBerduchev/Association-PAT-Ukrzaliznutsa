@@ -63,13 +63,13 @@ namespace Association_PAT_Ukrzaliznutsa
 
         private void BtnAddLocomotiveType_Click(object sender, RoutedEventArgs e)
         {
-            AddTypeLocomotive addTypeLocomotive = new AddTypeLocomotive();
+            AddTypeLocomotiveWindow addTypeLocomotive = new AddTypeLocomotiveWindow();
             addTypeLocomotive.Show();
         }
 
         private void BtnAddVagonType_Click(object sender, RoutedEventArgs e)
         {
-            AddVagonType addVagonType = new AddVagonType();
+            AddVagonTypeWindow addVagonType = new AddVagonTypeWindow();
             addVagonType.Show();
         }
 
@@ -265,7 +265,7 @@ namespace Association_PAT_Ukrzaliznutsa
 
         private void BtnSetTicket_Click(object sender, RoutedEventArgs e)
         {
-            CreateTicket createTicket = new CreateTicket();
+            CreateTicketWindow createTicket = new CreateTicketWindow();
             createTicket.Show();
         }
 
@@ -306,7 +306,7 @@ namespace Association_PAT_Ukrzaliznutsa
 
         private void BtnCreateOrder_Click(object sender, RoutedEventArgs e)
         {
-            CreateOrder createOrder = new CreateOrder();
+            CreateOrderWindow createOrder = new CreateOrderWindow();
             createOrder.Show();
         }
         

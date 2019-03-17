@@ -106,14 +106,14 @@
     <Compile Include="AddingInformationWindow\AddProdactionWindow.xaml.cs">
       <DependentUpon>AddProdactionWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AddingInformationWindow\AddTrainsInfo.xaml.cs">
-      <DependentUpon>AddTrainsInfo.xaml</DependentUpon>
+    <Compile Include="AddingInformationWindow\AddTrainsInfoWindow.xaml.cs">
+      <DependentUpon>AddTrainsInfoWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AddingInformationWindow\AddTypeLocomotive.xaml.cs">
-      <DependentUpon>AddTypeLocomotive.xaml</DependentUpon>
+    <Compile Include="AddingInformationWindow\AddTypeLocomotiveWindow.xaml.cs">
+      <DependentUpon>AddTypeLocomotiveWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AddingInformationWindow\AddVagonType.xaml.cs">
-      <DependentUpon>AddVagonType.xaml</DependentUpon>
+    <Compile Include="AddingInformationWindow\AddVagonTypeWindow.xaml.cs">
+      <DependentUpon>AddVagonTypeWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="AddingInformationWindow\LocomotiveInformation.xaml.cs">
       <DependentUpon>LocomotiveInformation.xaml</DependentUpon>
@@ -172,9 +172,11 @@
     <Compile Include="TicketSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>
-    <Compile Include="Tickets\CreateOrder.cs" />
-    <Compile Include="Tickets\CreateTicket.xaml.cs">
-      <DependentUpon>CreateTicket.xaml</DependentUpon>
+    <Compile Include="Tickets\CreateOrderWindow.xaml.cs">
+      <DependentUpon>CreateOrderWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tickets\CreateTicketWindow.xaml.cs">
+      <DependentUpon>CreateTicketWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="TrainsInfoSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
@@ -230,15 +232,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AddingInformationWindow\AddTrainsInfo.xaml">
+    <Page Include="AddingInformationWindow\AddTrainsInfoWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AddingInformationWindow\AddTypeLocomotive.xaml">
+    <Page Include="AddingInformationWindow\AddTypeLocomotiveWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AddingInformationWindow\AddVagonType.xaml">
+    <Page Include="AddingInformationWindow\AddVagonTypeWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -282,11 +284,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tickets\CreateOrder.xaml">
+    <Page Include="Tickets\CreateOrderWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tickets\CreateTicket.xaml">
+    <Page Include="Tickets\CreateTicketWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
