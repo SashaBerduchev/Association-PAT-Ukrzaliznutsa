@@ -83,6 +83,7 @@ namespace Association_PAT_Ukrzaliznutsa.MarshruteInfoWindow
         {
             Thread thread = new Thread(setMarshrute);
             thread.Start();
+            this.Close();
         }
 
         private void setMarshrute()

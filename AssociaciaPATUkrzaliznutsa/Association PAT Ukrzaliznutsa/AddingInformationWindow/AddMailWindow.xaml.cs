@@ -26,6 +26,8 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
             };
             ukrzaliznutsaDBEntities.MailSet.Add(mail);
             ukrzaliznutsaDBEntities.SaveChanges();
+
+            this.Close();
         }
     }
 }

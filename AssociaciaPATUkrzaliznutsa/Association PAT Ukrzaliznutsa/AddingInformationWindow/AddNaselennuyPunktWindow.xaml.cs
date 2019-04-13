@@ -27,6 +27,7 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
             };
             ukrzaliznutsaDBEntities.NaselennuyPunktSet.Add(naselennuyPunkt);
             ukrzaliznutsaDBEntities.SaveChanges();
+            this.Close();
         }
 
         private void Punktname_KeyDown(object sender, KeyEventArgs e)

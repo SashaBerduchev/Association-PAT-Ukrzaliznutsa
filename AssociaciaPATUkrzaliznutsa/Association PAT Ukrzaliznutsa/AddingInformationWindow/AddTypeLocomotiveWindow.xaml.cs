@@ -37,6 +37,7 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
             };
             ukrzaliznutsaDBEntities.TypeLocomotiveSet.Add(typeLocomotive);
             ukrzaliznutsaDBEntities.SaveChanges();
+            this.Close();
         }
     }
 }

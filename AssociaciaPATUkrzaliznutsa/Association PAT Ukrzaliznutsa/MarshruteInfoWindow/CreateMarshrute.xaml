@@ -22,15 +22,20 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <ComboBox Name="NumberTrain" Grid.Row="0" Margin="10"/>
-        <ComboBox Name="PointStart" Grid.Row="1" Margin="10"/>
-        <ComboBox Name="PointEnd" Grid.Row="2" Margin="10"/>
-        <ComboBox Name="TypeTrain" Grid.Row="3" Margin="10"/>
-        <ComboBox Name="TypeLocomotive" Grid.Row="4" Margin="10"/>
-        <ComboBox Name="Locomotive" Grid.Row="5" Margin="10"/>
-        <ComboBox Name="TypeVagon" Grid.Row="6" Margin="10"/>
+        <ComboBox Name="NumberTrain" Grid.Row="0" Margin="144,10,10,10"/>
+        <ComboBox Name="PointStart" Grid.Row="1" Margin="144,10,10,10"/>
+        <ComboBox Name="PointEnd" Grid.Row="2" Margin="144,10,10,10"/>
+        <ComboBox Name="TypeTrain" Grid.Row="3" Margin="144,10,10,10"/>
+        <ComboBox Name="TypeLocomotive" Grid.Row="4" Margin="144,10,10,10"/>
+        <ComboBox Name="Locomotive" Grid.Row="5" Margin="144,10,10,10"/>
+        <ComboBox Name="TypeVagon" Grid.Row="6" Margin="144,10,10,10"/>
         <Button Name="ImageLoad" Grid.Row="7" Margin="10" Content="Загрузить картинку" Click="ImageLoad_Click"/>
         <Button Name="FileLoad" Grid.Row="8" Margin="10" Content="Загрузить текстовый файл" Click="FileLoad_Click" />
         <Button Name="Set" Grid.Row="9" Margin="10" Content="Сохранить" Click="Set_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,18,0,0" TextWrapping="Wrap" Text="Номер поезда" VerticalAlignment="Top" Width="88"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="Точка отправления поезда" VerticalAlignment="Top" Width="111" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="Точка прибытия поезда" VerticalAlignment="Top" Width="111" Grid.Row="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="Тип поезда" VerticalAlignment="Top" Width="111" Grid.Row="3"/>
+
     </Grid>
 </Window>

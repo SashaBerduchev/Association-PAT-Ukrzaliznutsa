@@ -30,6 +30,7 @@ namespace Association_PAT_UkrzaliznutsaClient.Windows
         private void Set_Click(object sender, RoutedEventArgs e)
         {
             contract.setContragent(NameKlient.Text, Prodaction.SelectedItem.ToString(), VagonType.SelectedItem.ToString(), User.SelectedItem.ToString());
+            this.Close();
         }
     }
 }

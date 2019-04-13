@@ -17,7 +17,6 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
-            <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBox Name="Number" Grid.Row="0" Margin="10"/>
         <ComboBox Name="Locomotive" Grid.Row="1" Margin="10"/>
@@ -27,7 +26,6 @@
         <ComboBox Name="LocomotivePowerEngine" Grid.Row="5" Margin="10"/>
         <Button Name="LoadPhoto" Grid.Row="6" Content="Фоточка" Margin="5" Click="LoadPhoto_Click"/>
         <Button Name="AddFile" Grid.Row="7" Margin="5" Content="Загрузить файл" Click="AddFile_Click"/>
-        <TextBox Name="point" Grid.Row="8" Margin="10"/>
         <Button Name="Set" Grid.Row="9" Margin="5" Content="Set" Click="Set_Click"/>
     </Grid>
 </Window>

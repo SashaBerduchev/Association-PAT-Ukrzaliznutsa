@@ -11,7 +11,7 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Name="name" Margin="20"/>
+        <TextBox Name="name" Margin="20" Text="Тип локомотива"/>
         <Button Name="Set" Content="Сохранить" Grid.Row="1" Margin="20" Click="Set_Click" />
     </Grid>
 </Window>

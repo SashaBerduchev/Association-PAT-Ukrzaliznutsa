@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Windows;
 
 namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
@@ -71,27 +72,36 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
 
         private void Set_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
+            Thread thread = new Thread(Save);
+            thread.Start();
+            this.Close();
+        }
 
-                UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
-                LokomotiveSet lokomotive = new LokomotiveSet
-                {
-                    Name = NameLocomotive.Text,
-                    PowerEngin = Power.Text,
-                    Type = typesList.SelectedItem.ToString(),
-                    Velocity = Velocity.Text,
-                    Photo = photoload,
-                    PDF = arrayread,
-                    Information = Information.Text
-                };
-                ukrzaliznutsaDBEntities.LokomotiveSet.Add(lokomotive);
-                ukrzaliznutsaDBEntities.SaveChanges();
-            }
-            catch (Exception exp)
+        private void Save()
+        {
+            Dispatcher.Invoke(() =>
             {
-                MessageBox.Show(exp.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
+                try
+                {
+                    UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
+                    LokomotiveSet lokomotive = new LokomotiveSet
+                    {
+                        Name = NameLocomotive.Text,
+                        PowerEngin = Power.Text,
+                        Type = typesList.SelectedItem.ToString(),
+                        Velocity = Velocity.Text,
+                        Photo = photoload,
+                        PDF = arrayread,
+                        Information = Information.Text
+                    };
+                    ukrzaliznutsaDBEntities.LokomotiveSet.Add(lokomotive);
+                    ukrzaliznutsaDBEntities.SaveChanges();
+                }
+                catch (Exception exp)
+                {
+                    MessageBox.Show(exp.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            });
         }
     }
 }

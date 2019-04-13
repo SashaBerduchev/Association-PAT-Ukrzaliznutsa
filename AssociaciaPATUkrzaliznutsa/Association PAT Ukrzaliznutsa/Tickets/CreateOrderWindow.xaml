@@ -33,17 +33,18 @@
         <ComboBox Name="Number" Grid.Row="1" Margin="10" Grid.ColumnSpan="3"/>
         <ComboBox Name="Prodaction" Grid.Row="2" Margin="10" SelectionChanged="Prodaction_SelectionChanged" />
         <TextBox Name="prodactiontext" Grid.Column="1" Grid.Row="2" Grid.RowSpan="5" Grid.ColumnSpan="2"/>
-        <TextBox Name="Informationoforder" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="2" Grid.RowSpan="6"/>
+        <TextBox Name="Informationoforder" Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="2" Grid.RowSpan="6" Text="Информация о заказе"/>
         <ComboBox Name="ContragentFrom" Grid.Row="3" Margin="10" />
         <ComboBox Name="PointStart" Grid.Row="4" Margin="10"/>
         <ComboBox Name="ContragentTo" Grid.Row="5" Margin="10"/>
         <ComboBox Name="PointEnd" Grid.Row="6" Margin="10"/>
         <ComboBox Name="TypeVadon" Grid.Row="7" Margin="10"/>
         <ComboBox Name="Marshrute" Grid.Row="8" Margin="10" />
-        <TextBox Name="PriceOfOrder" Grid.Row="9" Margin="10"/>
+        <TextBox Name="PriceOfOrder" Grid.Row="9" Margin="10" Text="Информация о товаре на перевозку"/>
         <Button Name="Photo" Grid.Row="10" Margin="10" Content="Фото" Click="Photo_Click"/>
         <Button Name="OrderPhoto" Grid.Row="11" Margin="0,47,20,25" Content="Фото заказа" Grid.RowSpan="2" Click="OrderPhoto_Click"/>
         <Button Name="InformatioOfOrder" Grid.Row="12" Margin="10" Content="Информация о заказе" Click="InformatioOfOrder_Click"/>
         <Button Name="btn_Set" Grid.Row="13" Grid.Column="1" Margin="10" Content="Сохранить" Click="Btn_Set_Click"/>
+
     </Grid>
 </Window>

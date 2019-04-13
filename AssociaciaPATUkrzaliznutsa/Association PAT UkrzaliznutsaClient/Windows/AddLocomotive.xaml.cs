@@ -23,6 +23,8 @@ namespace Association_PAT_UkrzaliznutsaClient.Windows
     public partial class AddLocomotive : Window
     {
         IContract contract;
+        byte[] photoload;
+        byte[] arrayread;
         public AddLocomotive()
         {
 
@@ -34,12 +36,11 @@ namespace Association_PAT_UkrzaliznutsaClient.Windows
             InitializeComponent();
 
             byte[] lokomotiv = contract.getTypeLocomotive();
-            Type.ItemsSource = Encoding.Default.GetChars(lokomotiv);
+            typesList.ItemsSource = Encoding.Default.GetChars(lokomotiv);
 
         }
 
-        byte[] photoload;
-        byte[] arrayread;
+        
         private void FileLOad_Click(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -83,7 +84,8 @@ namespace Association_PAT_UkrzaliznutsaClient.Windows
 
         private void Set_Click(object sender, RoutedEventArgs e)
         {
-            contract.setLocomotiveinfo(NameLocomotive.Text, Type.SelectedItem.ToString(), Velocity.Text, Power.Text, Information.Text, arrayread, photoload);
+            contract.setLocomotiveinfo(NameLocomotive.Text, typesList.SelectedItem.ToString(), Velocity.Text, Power.Text, Information.Text, arrayread, photoload);
+            this.Close();
         }
 
       

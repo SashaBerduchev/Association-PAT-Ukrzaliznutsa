@@ -21,6 +21,7 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
         {
             Thread thread = new Thread(Save);
             thread.Start();
+            this.Close();
         }
 
         private void Save()

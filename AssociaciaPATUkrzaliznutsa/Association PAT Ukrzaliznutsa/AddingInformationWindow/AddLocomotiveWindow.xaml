@@ -21,13 +21,14 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Name="NameLocomotive" Grid.ColumnSpan="3" Margin="10"/>
+        <TextBox Name="NameLocomotive" Grid.ColumnSpan="3" Margin="145,10,111,10"/>
         <ComboBox Name="typesList" Grid.Row="1" Margin="10" Grid.ColumnSpan="3"/>
-        <TextBox Name="Information" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="4"/>
-        <TextBox Name="Velocity" Grid.Row="2" Margin="10"/>
-        <TextBox Name="Power" Grid.Row="3" Margin="10"/>
+        <TextBox Name="Information" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Grid.RowSpan="4" Text="Дополнительная информация"/>
+        <TextBox Name="Velocity" Grid.Row="2" Margin="10" Text="Максимальная скорость"/>
+        <TextBox Name="Power" Grid.Row="3" Margin="10" Text="Мощность локомотива "/>
         <Button Name="Photo" Grid.Row="4" Margin="10" Content="Фоточка" Click="Photo_Click"/>
         <Button Name="FileLOad" Grid.Row="5" Margin="10" Content="Загрузить файл" Click="FileLOad_Click" />
         <Button Name="Set" Content="Сохранить" Grid.Column="1" Grid.Row="6" Margin="10"  Click="Set_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="79" Text="Название локомотива "/>
     </Grid>
 </Window>

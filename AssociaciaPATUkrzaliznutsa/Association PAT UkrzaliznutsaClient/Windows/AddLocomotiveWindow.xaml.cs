@@ -28,6 +28,7 @@ namespace Association_PAT_UkrzaliznutsaClient.Windows
         private void Set_Click(object sender, RoutedEventArgs e)
         {
             contract.setLocomotiveType(name.Text);
+            this.Close();
         }
     }
 }

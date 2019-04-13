@@ -12,7 +12,8 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <TextBox Name="mailname" Grid.Row="0" Margin="20"/>
+        <TextBox Name="mailname" Grid.Row="0" Margin="20" Text="Электронная почта
+                 "/>
         <Button Name="btnSet" Grid.Row="3" Margin="20" Content="Сохранить" Click="BtnSet_Click"/>
     </Grid>
 </Window>

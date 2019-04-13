@@ -88,11 +88,9 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
 
         private void Set_Click(object sender, RoutedEventArgs e)
         {
-            for (int i = 0; i < Convert.ToInt32(point.Text); i++)
-            {
-                Thread thread = new Thread(setTrainInfo);
-                thread.Start();
-            }
+            Thread thread = new Thread(setTrainInfo);
+            thread.Start();
+            this.Close();
         }
         private void setTrainInfo()
         {

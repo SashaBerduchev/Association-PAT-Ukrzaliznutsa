@@ -15,11 +15,15 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <ComboBox Name="User" Grid.Row="0" Margin="20"/>
-            <TextBox Name="NameKlient" Grid.Row="1" Margin="20"/>
-            <ComboBox Name="Prodaction" Grid.Row="2" Margin="20"/>
-            <ComboBox Name="VagonType" Grid.Row="3" Margin="20"/>
+            <ComboBox Name="User" Grid.Row="0" Margin="131,20,20,20"/>
+            <TextBox Name="NameKlient" Grid.Row="1" Margin="131,20,20,20"/>
+            <ComboBox Name="Prodaction" Grid.Row="2" Margin="131,20,20,20"/>
+            <ComboBox Name="VagonType" Grid.Row="3" Margin="131,20,20,20"/>
             <Button Name="Set" Grid.Row="4" Content="Сохранить" Margin="20" Click="Set_Click" />
+            <TextBlock x:Name="Без_имени" HorizontalAlignment="Left" Margin="20,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="111"><Run Text="Имя пользователя"/><LineBreak/><Run/></TextBlock>
+            <TextBlock x:Name="Без_имени_Copy" HorizontalAlignment="Left" Margin="20,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="111" Grid.Row="1"><Run Text="Имя клиента"/><LineBreak/><Run/></TextBlock>
+            <TextBlock x:Name="Без_имени_Copy1" HorizontalAlignment="Left" Margin="25,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="111" Grid.Row="2" Text="Продукция"/>
+            <TextBlock x:Name="Без_имени_Copy2" HorizontalAlignment="Left" Margin="20,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="111" Grid.Row="3"><Run Text="Тип вагона"/><LineBreak/><Run/></TextBlock>
         </Grid>
     </Grid>
 </Window>

@@ -36,6 +36,7 @@ namespace Association_PAT_Ukrzaliznutsa.AddingInformationWindow
             };
             ukrzaliznutsaDBEntities.VagonTypeSet.Add(vagonType);
             ukrzaliznutsaDBEntities.SaveChanges();
+            this.Close();
         }
 
         private void Name_KeyDown(object sender, KeyEventArgs e)
