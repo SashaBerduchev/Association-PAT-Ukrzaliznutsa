@@ -212,6 +212,9 @@
     <Compile Include="UsersSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>
+    <Compile Include="Users\AddUserWindow.xaml.cs">
+      <DependentUpon>AddUserWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VagonTypeSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>
@@ -292,6 +295,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Tickets\CreateTicketWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Users\AddUserWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

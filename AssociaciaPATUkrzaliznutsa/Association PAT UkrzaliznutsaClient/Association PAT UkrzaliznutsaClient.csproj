@@ -89,6 +89,9 @@
     <Compile Include="Ticket\CreateTicketWindow.xaml.cs">
       <DependentUpon>CreateTicketWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Users\AddUserWindow.xaml.cs">
+      <DependentUpon>AddUserWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\AddContragentWindow.xaml.cs">
       <DependentUpon>AddContragentWindow.xaml</DependentUpon>
     </Compile>
@@ -138,6 +141,10 @@
     <Page Include="Ticket\CreateTicketWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Users\AddUserWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Windows\AddContragentWindow.xaml">
       <SubType>Designer</SubType>

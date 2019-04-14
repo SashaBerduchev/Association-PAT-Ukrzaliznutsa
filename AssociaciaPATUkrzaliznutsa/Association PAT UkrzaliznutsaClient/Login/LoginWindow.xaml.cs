@@ -25,15 +25,16 @@ namespace Association_PAT_UkrzaliznutsaClient.Login
         IContract contract;
         public LoginWindow()
         {
-            InitializeComponent();
+            
 
             Uri uri = new Uri("net.tcp://localhost:4000/IContract");
             NetTcpBinding netTcpBinding = new NetTcpBinding();
             EndpointAddress endpoint = new EndpointAddress(uri);
             ChannelFactory<IContract> factory = new ChannelFactory<IContract>(netTcpBinding, endpoint);
             contract = factory.CreateChannel();
-            InitializeComponent();
 
+            InitializeComponent();
+            User.ItemsSource = contract.Users();
             Type type = typeof(LoginWindow);
             Trace.WriteLine(type.Name);
         }
@@ -42,13 +43,13 @@ namespace Association_PAT_UkrzaliznutsaClient.Login
         {
             try
             {
-                contract.setUserLogin(Name.Text, Pass.Password);
+                contract.Login(Pass.Password);
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
                 this.Close();
             }catch(Exception exp)
             {
-                MessageBox.Show(exp.ToString(), "Warning", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Не верный пароль", "Warning", MessageBoxButton.OK, MessageBoxImage.Error);
                 string expstr = exp.ToString();
                 FileStream fileStreamLog = new FileStream(@"Connection.log", FileMode.Append);
                 for (int i = 0; i < expstr.Length; i++)
@@ -57,7 +58,11 @@ namespace Association_PAT_UkrzaliznutsaClient.Login
                     fileStreamLog.Write(array, 0, array.Length);
                 }
                 fileStreamLog.Close();
+
+                new LoginWindow().Show();
+                this.Close();
             }
         }
+        
     }
 }

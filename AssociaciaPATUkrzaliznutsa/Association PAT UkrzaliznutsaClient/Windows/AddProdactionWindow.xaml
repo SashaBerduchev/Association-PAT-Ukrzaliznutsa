@@ -13,9 +13,12 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Name="ProdactionName" Grid.Row="0"  Margin="20"/>
-        <TextBox Name="ProdactionCount" Grid.Row="1" Margin="20"/>
-        <TextBox Name="ProdactionCost" Grid.Row="2"  Margin="20"/>
+        <TextBox Name="ProdactionName" Grid.Row="0"  Margin="107,20,20,20"/>
+        <TextBox Name="ProdactionCount" Grid.Row="1" Margin="107,20,20,20"/>
+        <TextBox Name="ProdactionCost" Grid.Row="2"  Margin="107,20,20,20"/>
         <Button Name="Set" Grid.Row="4" Content="Сохрнаить" Margin="20" Click="Set_Click" />
+        <TextBlock HorizontalAlignment="Left" Margin="20,33,0,0" TextWrapping="Wrap" Text="Название" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,33,0,0" TextWrapping="Wrap" Text="Колличество" VerticalAlignment="Top" Grid.Row="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,34,0,0" TextWrapping="Wrap" Text="Цена" VerticalAlignment="Top" Grid.Row="1"/>
     </Grid>
 </Window>

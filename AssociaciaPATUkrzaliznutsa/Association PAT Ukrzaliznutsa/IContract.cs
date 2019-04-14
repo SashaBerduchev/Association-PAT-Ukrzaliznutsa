@@ -27,7 +27,7 @@ namespace Association_PAT_Ukrzaliznutsa
         [OperationContract]
         string[] getMailAddress();
         [OperationContract]
-        string[] getUser();
+        List<string> getUser();
         [OperationContract]
         string[] getNumber();
         [OperationContract]
@@ -57,5 +57,11 @@ namespace Association_PAT_Ukrzaliznutsa
         string[] getLocomotive();
         [OperationContract]
         List<string> getMarshruteWheelMove();
+        [OperationContract]
+        void Login(string pass);
+        [OperationContract]
+        string[] Users();
+        [OperationContract]
+        void Delete(string user);
     };
 }

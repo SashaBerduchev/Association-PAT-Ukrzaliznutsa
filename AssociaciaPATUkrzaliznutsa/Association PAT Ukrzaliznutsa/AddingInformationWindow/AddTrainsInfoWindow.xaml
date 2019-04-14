@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Association_PAT_Ukrzaliznutsa.AddingInformationWindow"
         mc:Ignorable="d"
-        Title="AddTrainsInfoWindow" Height="450" Width="250">
+        Title="AddTrainsInfoWindow" Height="450" Width="400">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -18,14 +18,20 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox Name="Number" Grid.Row="0" Margin="10"/>
-        <ComboBox Name="Locomotive" Grid.Row="1" Margin="10"/>
-        <ComboBox Name="TypeLocomotive" Grid.Row="2" Margin="10"/>
-        <ComboBox Name="TypeVagon" Grid.Row="3" Margin="10"/>
-        <TextBox Name="Length" Grid.Row="4" Margin="10"/>
-        <ComboBox Name="LocomotivePowerEngine" Grid.Row="5" Margin="10"/>
-        <Button Name="LoadPhoto" Grid.Row="6" Content="Фоточка" Margin="5" Click="LoadPhoto_Click"/>
+        <TextBox Name="Number" Grid.Row="0" Margin="103,10,10,10"/>
+        <ComboBox Name="Locomotive" Grid.Row="1" Margin="103,10,10,10"/>
+        <ComboBox Name="TypeLocomotive" Grid.Row="2" Margin="103,10,10,10"/>
+        <ComboBox Name="TypeVagon" Grid.Row="3" Margin="103,10,10,10"/>
+        <TextBox Name="Length" Grid.Row="4" Margin="103,10,10,10"/>
+        <ComboBox Name="LocomotivePowerEngine" Grid.Row="5" Margin="103,10,10,10"/>
+        <Button Name="LoadPhoto" Grid.Row="6" Content="Изображение" Margin="5" Click="LoadPhoto_Click"/>
         <Button Name="AddFile" Grid.Row="7" Margin="5" Content="Загрузить файл" Click="AddFile_Click"/>
         <Button Name="Set" Grid.Row="9" Margin="5" Content="Set" Click="Set_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="19,16,0,0" TextWrapping="Wrap" Text="Номер поезда" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="19,15,0,0" TextWrapping="Wrap" Text="Локомотив" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="11,17,0,0" TextWrapping="Wrap" Text="Тип локомотива" VerticalAlignment="Top" Grid.Row="2" Width="92"/>
+        <TextBlock HorizontalAlignment="Left" Margin="5,20,0,0" TextWrapping="Wrap" Text="Тип вагонов" VerticalAlignment="Top" Grid.Row="3" Width="92"/>
+        <TextBlock HorizontalAlignment="Left" Margin="6,5,0,0" TextWrapping="Wrap" Text="Количество вагонов" VerticalAlignment="Top" Grid.Row="4" Width="92"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Мощность локомотива" VerticalAlignment="Top" Grid.Row="5" Width="92"/>
     </Grid>
 </Window>

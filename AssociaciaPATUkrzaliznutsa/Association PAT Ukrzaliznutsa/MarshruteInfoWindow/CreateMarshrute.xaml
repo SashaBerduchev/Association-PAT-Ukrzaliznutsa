@@ -36,6 +36,9 @@
         <TextBlock HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="Точка отправления поезда" VerticalAlignment="Top" Width="111" Grid.Row="1"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="Точка прибытия поезда" VerticalAlignment="Top" Width="111" Grid.Row="2"/>
         <TextBlock HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="Тип поезда" VerticalAlignment="Top" Width="111" Grid.Row="3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Grid.Row="6"><Run Text="Тип вагона"/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="28,17,0,0" TextWrapping="Wrap" Text="Локомотив" VerticalAlignment="Top" Width="111" Grid.Row="5"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106" Grid.Row="4" Height="22"><Run Text="Тип локомотива"/><LineBreak/><Run/></TextBlock>
 
     </Grid>
 </Window>

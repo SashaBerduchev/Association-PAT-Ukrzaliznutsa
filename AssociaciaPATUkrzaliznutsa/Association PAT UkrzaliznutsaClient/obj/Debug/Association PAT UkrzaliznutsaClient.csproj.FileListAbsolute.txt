@@ -217,3 +217,5 @@ D:\Progects\C-SHARP\Oracle\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association
 D:\Progects\C-SHARP\Oracle\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.csproj.CoreCompileInputs.cache
 D:\Progects\C-SHARP\Oracle\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.exe
 D:\Progects\C-SHARP\Oracle\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.pdb
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Users\AddUserWindow.g.cs
+D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Users\AddUserWindow.baml

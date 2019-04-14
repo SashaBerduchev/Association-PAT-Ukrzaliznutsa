@@ -101,11 +101,11 @@ namespace Association_PAT_Ukrzaliznutsa
             return mails.AsParallel().Select(x => x.MailName).ToArray();
         }
         
-        public string[] getUser()
+        public List<string> getUser()
         {
             List<UsersSet> users;
             users = ukrzaliznutsaDBEntities.UsersSet.ToList();
-            return users.AsParallel().Select(x => x.Name).ToArray();
+            return users.AsParallel().Select(x => x.Name + " " + x.Password ).ToList();
         }
 
         public string[] getNumber()
@@ -260,6 +260,25 @@ namespace Association_PAT_Ukrzaliznutsa
             return marshdata;
         }
 
-        
+        public string[] Users()
+        {
+            List<UsersSet> users = ukrzaliznutsaDBEntities.UsersSet.ToList();
+            return users.Select(x => x.Name).ToArray();
+        }
+        public void Login(string pass)
+        {
+            UsersSet user = ukrzaliznutsaDBEntities.UsersSet.Where(x => x.Password == pass).First();
+            MainWindow mainWindow = new MainWindow();
+        }
+    
+        public  void Delete(string user)
+        {
+            UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
+            List<UsersSet> users;
+            UsersSet userinfo = ukrzaliznutsaDBEntities.UsersSet.Where(x => x.Name == user).FirstOrDefault();
+            users = ukrzaliznutsaDBEntities.UsersSet.ToList();
+            ukrzaliznutsaDBEntities.UsersSet.Remove(userinfo);
+            ukrzaliznutsaDBEntities.SaveChanges();
+        }
     }
 }

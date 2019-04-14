@@ -28,17 +28,17 @@
                         <RowDefinition/>
                     </Grid.RowDefinitions>
 
-                    <Button Name="btnAddNaselenPunkt" Grid.Column="0" Grid.Row="0" Margin="20" Content="Населенные пункты" Click="BtnAddNaselenPunkt_Click" />
-                    <Button Name="btnAddLocomotive" Grid.Column="0" Grid.Row="1" Margin="20" Content="Добавить локомотив" Click="BtnAddLocomotive_Click" />
-                    <Button Name="btnAddLocomotiveType" Grid.Column="1" Grid.Row="0" Margin="20" Content="Типы локомотивов" Click="BtnAddLocomotiveType_Click"  />
-                    <Button Name="btnAddVagonType" Grid.Column="1" Grid.Row="1" Margin="20" Content="Типы вагонов" Click="BtnAddVagonType_Click"  />
-                    <Button Name="btnAddVagon" Grid.Column="1" Grid.Row="2" Margin="20" Content="Тип поезда" Click="BtnAddVagon_Click" />
-                    <Button Name="btnAddMail" Grid.Column="0" Grid.Row="2" Margin="20" Content="Почтотвые адреса" Click="BtnAddMail_Click" />
-                    <Button Name="btn_contragent" Grid.Column="2" Margin="20" Content="Регистрация предприятия" Click="Btn_contragent_Click" />
-                    <Button Name="btn_prodaction" Grid.Column="2" Grid.Row="1" Margin="20" Content="Добавить продукцию" Click="Btn_prodaction_Click"  />
-                    <Button Name="btn_update" Grid.Column="2" Grid.Row="2" Margin="20" Content="Обновить" Click="Btn_update_Click"  />
-                    <ListBox Name="listcontragent" Grid.Column="4" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
-                    <ListBox Name="listprodact" Grid.Column="6" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+                    <Button Name="btnAddNaselenPunkt" Grid.Column="0" Grid.Row="0" Margin="20,20,78,20" Content="Населенные пункты" Click="BtnAddNaselenPunkt_Click" Grid.ColumnSpan="2" />
+                    <Button Name="btnAddLocomotive" Grid.Column="0" Grid.Row="1" Margin="20,20,78,20" Content="Добавить локомотив" Click="BtnAddLocomotive_Click" Grid.ColumnSpan="2" />
+                    <Button Name="btnAddLocomotiveType" Grid.Column="1" Grid.Row="0" Margin="74,20,29,20" Content="Типы локомотивов" Click="BtnAddLocomotiveType_Click" Grid.ColumnSpan="2"  />
+                    <Button Name="btnAddVagonType" Grid.Column="1" Grid.Row="1" Margin="74,20,29,20" Content="Типы вагонов" Click="BtnAddVagonType_Click" Grid.ColumnSpan="2"  />
+                    <Button Name="btnAddVagon" Grid.Column="1" Grid.Row="2" Margin="74,30,29,10" Content="Тип поезда" Click="BtnAddVagon_Click" Grid.ColumnSpan="2" />
+                    <Button Name="btnAddMail" Grid.Row="2" Margin="20,30,78,10" Content="Почтотвые адреса" Click="BtnAddMail_Click" Grid.ColumnSpan="2" />
+                    <Button Name="btn_contragent" Margin="25,30,78,10" Content="Регистрация предприятия" Click="Btn_contragent_Click" Grid.ColumnSpan="2" Grid.Row="3" />
+                    <Button Name="btn_prodaction" Grid.Column="1" Grid.Row="3" Margin="0,30,29,10" Content="Добавить продукцию" Click="Btn_prodaction_Click" Grid.ColumnSpan="2" HorizontalAlignment="Right" Width="143"  />
+                    <Button Name="btn_update" Grid.Column="5" Grid.Row="3" Margin="97,40,67,0" Content="Обновить" Click="Btn_update_Click" Grid.ColumnSpan="2"  />
+                    <ListBox Name="listcontragent" Grid.Column="4" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="4" Margin="44,20,114,98"/>
+                    <ListBox Name="listprodact" Grid.Column="6" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="4" Margin="15,20,-5,98"/>
                 </Grid>
             </TabItem>
             <TabItem Name="MarshruteInfo" Header="Информаци о маршрутах">
@@ -103,6 +103,20 @@
                     <Button Name="btnPrintOrder" Grid.Column="5" Grid.Row="0" Margin="30" Content="Печать" Click="BtnPrintOrder_Click"/>
                 </Grid>
             </TabItem>
+            <TabItem Header="Администрирование" Margin="-2,-2,24,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <ListBox Name="ListUsers" HorizontalAlignment="Left" Height="543" Margin="26,38,0,0" VerticalAlignment="Top" Width="356"/>
+                    <Button Name="AddUser" Content="Добавить "  HorizontalAlignment="Left" Margin="492,70,0,0" VerticalAlignment="Top" Width="202" Height="32" Click="AddUser_Click"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="139,15,0,0" TextWrapping="Wrap" Text="Пользователи" VerticalAlignment="Top" Height="23" Width="101"/>
+                    <Button x:Name="DeleteUser" Content="Удалить "  HorizontalAlignment="Left" Margin="492,236,0,0" VerticalAlignment="Top" Width="202" Height="32" Click="DeleteUser_Click"/>
+                    <Button x:Name="update" Content="Обновить"  HorizontalAlignment="Left" Margin="492,152,0,0" VerticalAlignment="Top" Width="202" Height="32" Click="Update_Click" />
+
+                </Grid>
+            </TabItem>
+
         </TabControl>
     </Grid>
 </Window>

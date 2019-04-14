@@ -2,6 +2,7 @@
 using Association_PAT_Ukrzaliznutsa.EMail;
 using Association_PAT_Ukrzaliznutsa.MarshruteInfoWindow;
 using Association_PAT_Ukrzaliznutsa.Tickets;
+using Association_PAT_Ukrzaliznutsa.Users;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -26,19 +27,6 @@ namespace Association_PAT_Ukrzaliznutsa
         public MainWindow()
         {
             InitializeComponent();
-            
-            string uriAddress = "net.tcp://localhost:4000/IContract";
-            //Uri addres = new Uri("net.tcp://localhost:4000/IContract");
-            Uri addres = new Uri(uriAddress);
-            NetTcpBinding binding = new NetTcpBinding();
-            binding.ListenBacklog = 2000;
-            binding.MaxConnections = 2000;
-            binding.TransferMode = TransferMode.Buffered;
-            binding.MaxReceivedMessageSize = 104857600;
-            Type type = typeof(IContract);
-            ServiceHost serviceHost = new ServiceHost(typeof(UZService));
-            serviceHost.AddServiceEndpoint(type, binding, uriAddress);
-            serviceHost.Open();
 
             Type typen = typeof(MainWindow);
             Trace.Write(message: typen.Name);
@@ -369,7 +357,29 @@ namespace Association_PAT_Ukrzaliznutsa
                 fileStreamLog.Close();
             }
         }
-        
+
+        private void AddUser_Click(object sender, RoutedEventArgs e)
+        {
+            new AddUserWindow().Show();
+        }
+
+        private void DeleteUser_Click(object sender, RoutedEventArgs e)
+        {
+            UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
+            List<UsersSet> users;
+            UsersSet user = ukrzaliznutsaDBEntities.UsersSet.Where(x=>x.Name == ListUsers.SelectedItem.ToString()).FirstOrDefault();
+            users = ukrzaliznutsaDBEntities.UsersSet.ToList();
+            ukrzaliznutsaDBEntities.UsersSet.Remove(user);
+            ukrzaliznutsaDBEntities.SaveChanges();
+        }
+
+        private void Update_Click(object sender, RoutedEventArgs e)
+        {
+            UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
+            List<UsersSet> users;
+            users = ukrzaliznutsaDBEntities.UsersSet.ToList();
+            ListUsers.ItemsSource = users.Select(x=>x.Name);
+        }
     }
 
 }

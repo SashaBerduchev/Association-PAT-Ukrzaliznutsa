@@ -1,4 +1,5 @@
-﻿using Association_PAT_UkrzaliznutsaClient.EMail;
+﻿using Association_PAT_Ukrzaliznutsa.Users;
+using Association_PAT_UkrzaliznutsaClient.EMail;
 using Association_PAT_UkrzaliznutsaClient.Ticket;
 using Association_PAT_UkrzaliznutsaClient.Windows;
 using System;
@@ -241,6 +242,21 @@ namespace Association_PAT_UkrzaliznutsaClient
         private void Listbox_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             contract.getMarshruteWheelMove();
+        }
+
+        private void AddUser_Click(object sender, RoutedEventArgs e)
+        {
+            new AddUserWindow().Show();
+        }
+
+        private void Update_Click(object sender, RoutedEventArgs e)
+        {
+            contract.getUser();
+        }
+
+        private void DeleteUser_Click(object sender, RoutedEventArgs e)
+        {
+            contract.Delete(ListUsers.SelectedItem.ToString());
         }
     }
 }
