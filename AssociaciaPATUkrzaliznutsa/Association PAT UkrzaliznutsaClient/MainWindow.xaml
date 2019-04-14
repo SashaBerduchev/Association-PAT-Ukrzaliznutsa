@@ -101,12 +101,12 @@
                     <Button Name="btnPrintOrder" Grid.Column="4" Grid.Row="0" Margin="20" Content="Печать" Click="BtnPrintOrder_Click"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Администрирование" Margin="-2,-2,24,0">
+            <TabItem Header="Администрирование" Margin="-2,-2,-28,0">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <ListBox Name="ListUsers" HorizontalAlignment="Left" Height="543" Margin="26,38,0,0" VerticalAlignment="Top" Width="356"/>
+                    <ListBox Name="ListUsers" HorizontalAlignment="Left" Height="453" Margin="26,38,0,0" VerticalAlignment="Top" Width="356"/>
                     <Button Name="AddUser" Content="Добавить "  HorizontalAlignment="Left" Margin="492,70,0,0" VerticalAlignment="Top" Width="202" Height="32" Click="AddUser_Click"/>
                     <TextBlock HorizontalAlignment="Left" Margin="139,15,0,0" TextWrapping="Wrap" Text="Пользователи" VerticalAlignment="Top" Height="23" Width="101"/>
                     <Button x:Name="DeleteUser" Content="Удалить "  HorizontalAlignment="Left" Margin="492,236,0,0" VerticalAlignment="Top" Width="202" Height="32" Click="DeleteUser_Click"/>

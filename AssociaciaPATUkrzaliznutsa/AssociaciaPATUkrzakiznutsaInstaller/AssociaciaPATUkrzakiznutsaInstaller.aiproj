@@ -29,6 +29,12 @@
       <Private>True</Private>
       <OutputsToImport>PrimaryOutput;References;ContentOutput;DocumentationOutput;LocalizedResourcesOutput;SymbolsOutput;ComTypeLibraryOutput</OutputsToImport>
     </ProjectReference>
+    <ProjectReference Include="..\AssociaciaPATUkrzaliznutsaService\AssociaciaPATUkrzaliznutsaService.csproj">
+      <Name>AssociaciaPATUkrzaliznutsaService</Name>
+      <Project>{8934dc17-0c81-4f68-92e5-9e33229cf7d8}</Project>
+      <Private>True</Private>
+      <OutputsToImport>PrimaryOutput;References;ContentOutput;DocumentationOutput;LocalizedResourcesOutput;SymbolsOutput;ComTypeLibraryOutput</OutputsToImport>
+    </ProjectReference>
     <ProjectReference Include="..\Association PAT UkrzaliznutsaClient\Association PAT UkrzaliznutsaClient.csproj">
       <Name>Association PAT UkrzaliznutsaClient</Name>
       <Project>{9869ea60-3151-46f0-89ac-b62bcf23b1e3}</Project>
