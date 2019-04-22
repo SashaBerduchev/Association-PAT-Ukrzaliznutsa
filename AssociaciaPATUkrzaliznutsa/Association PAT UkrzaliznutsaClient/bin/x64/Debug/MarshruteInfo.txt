@@ -1,0 +1,1 @@
+{ Number = 80 } { Name = ВЛ-80, Type = { Type = Электровоз }, Velocity = 160, PowerEngin = 2х750квт } { NamePunkt = Донецк } { NamePunkt = Киев } { Type = Электровоз } { Number = 70, Locomotive = { Name = ЧС-8, Type = { Type = Электровоз }, Velocity = 160км/ч }, Length = 15, TypeVagon = { Type = плацкарт } } { Type = Купе }

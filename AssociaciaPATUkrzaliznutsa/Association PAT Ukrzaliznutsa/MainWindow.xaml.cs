@@ -8,7 +8,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.ServiceModel;
 using System.Text;
 using System.Threading;
 using System.Windows;
@@ -21,19 +20,47 @@ namespace Association_PAT_Ukrzaliznutsa
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        private UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities;
         private List<MarshrutesSet> marshrutes;
         private List<OrderSet> orders;
+        private List<KlientsSet> klients;
+        private List<ProdactionSet> prodactions;
         public MainWindow()
         {
             InitializeComponent();
-
+            OnUpdate();
             Type typen = typeof(MainWindow);
             Trace.Write(message: typen.Name);
 
         }
 
-        
+        private void OnUpdate()
+        {
+            Thread klientload = new Thread(OnLoadKlient);
+            Thread orderLoad = new Thread(OnLoadOrder);
+            klientload.Start();
+            orderLoad.Start();
+        }
+
+        private void OnLoadOrder()
+        {
+            Dispatcher.Invoke(() =>
+            {
+                ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
+                prodactions = ukrzaliznutsaDBEntities.ProdactionSet.ToList();
+                listprodact.ItemsSource = prodactions.Select(x => x.ProdactionName);
+            });
+        }
+
+        private void OnLoadKlient()
+        {
+            Dispatcher.Invoke(() =>
+            {
+                ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
+                klients = ukrzaliznutsaDBEntities.KlientsSet.ToList();
+                listcontragent.ItemsSource = klients.Select(x => x.NameKlient);
+            });
+        }
 
         private void BtnAddNaselenPunkt_Click(object sender, RoutedEventArgs e)
         {
@@ -101,9 +128,7 @@ namespace Association_PAT_Ukrzaliznutsa
                     pointend.ItemsSource = marshrutes.AsParallel().Select(x => x.PointEnd).ToArray();
                     typetrain.ItemsSource = marshrutes.AsParallel().Select(x => x.TypeTrain).ToArray();
                     BitmapImage image = new BitmapImage();
-                    List<string> marshdata;
-                    marshdata = marshrutes.AsParallel().Select(x =>x.Locomotive +" "+x.NumberTrain+" "+x.PointStart+" "+x.PointEnd+" "+x.TypeLocomotive+" "+x.TypeVagon+" "+x.TypeTrain).ToList();
-                    listbox.ItemsSource = marshdata.Take(10);
+                    listbox.ItemsSource = marshrutes.AsParallel().Select(x =>x.Locomotive +" "+x.NumberTrain+" "+x.PointStart+" "+x.PointEnd+" "+x.TypeLocomotive+" "+x.TypeVagon+" "+x.TypeTrain).ToList();
                     numbertrain.ItemsSource = marshrutes.AsParallel().Select(x => x.NumberTrain ).ToArray();
 
 

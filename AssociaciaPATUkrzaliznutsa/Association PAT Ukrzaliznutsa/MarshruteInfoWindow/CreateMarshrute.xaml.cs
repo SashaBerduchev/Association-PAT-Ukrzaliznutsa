@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -33,6 +34,8 @@ namespace Association_PAT_Ukrzaliznutsa.MarshruteInfoWindow
             Locomotive.ItemsSource = lokomotives.Select(x => new { x.Name, x.Type, x.Velocity, x.PowerEngin });
             NumberTrain.ItemsSource = trains.AsParallel().Select(x => new { x.Number });
             TypeVagon.ItemsSource = trains.AsParallel().Select(x => x.TypeVagon).ToArray();
+
+            Trace.WriteLine(this);
 
         }
         byte[] photoload;
@@ -81,8 +84,12 @@ namespace Association_PAT_Ukrzaliznutsa.MarshruteInfoWindow
 
         private void Set_Click(object sender, RoutedEventArgs e)
         {
-            Thread thread = new Thread(setMarshrute);
-            thread.Start();
+            int point = Convert.ToInt32(textPoint.Text);
+            for (int i = 0; i < point; i++)
+            {
+                Thread thread = new Thread(setMarshrute);
+                thread.Start();
+            }
             this.Close();
         }
 

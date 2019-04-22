@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Association_PAT_Ukrzaliznutsa.UkrzaliznytsaServerServise;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -9,78 +10,50 @@ namespace Association_PAT_Ukrzaliznutsa
     {
         UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities  = new UkrzaliznutsaDBEntities();
         List<ProdactionSet> prodactions;
-        List<MarshrutesSet> marshrutes;
+        List<MarshrutesSet> marshrutes = new List<MarshrutesSet>();
         List<OrderSet> orders;
         public void AddNaselenPunkt(string namepunkt)
         {
-            NaselennuyPunktSet naselennuyPunkt = new NaselennuyPunktSet
-            {
-                NamePunkt = namepunkt
-            };
-            ukrzaliznutsaDBEntities.NaselennuyPunktSet.Add(naselennuyPunkt);
-            ukrzaliznutsaDBEntities.SaveChanges();
-            Trace.Write(message: "UZService");
+            NaselenuyPunkt naselenuyPunkt = new NaselenuyPunkt();
+            naselenuyPunkt.setNaselenuyPunkt(namepunkt);
         }
 
         public byte[] LoadNaselenPunkt()
         {
-            List<NaselennuyPunktSet> naselennuyPunkts;
-            naselennuyPunkts = ukrzaliznutsaDBEntities.NaselennuyPunktSet.ToList();
-            byte[] array = new byte[naselennuyPunkts.Count];
-            for (int i = 0; i < naselennuyPunkts.Count; i++)
-            {
-                array = Encoding.Default.GetBytes(naselennuyPunkts[i].ToString());
-            }
-
-            return array;
+            NaselenuyPunkt naselenuyPunkt = new NaselenuyPunkt();
+            return naselenuyPunkt.getNaselenuyPunkt();
         }
 
         public void setLocomotiveinfo(string Name, string Type, string Velocity, string PowerEngin, string information, byte[] pdf, byte[] photo)
         {
-            LokomotiveSet lokomotive = new LokomotiveSet
-            {
-                Name = Name,
-                Type = Type,
-                Velocity = Velocity,
-                PowerEngin = PowerEngin,
-                Information = information,
-                PDF = pdf,
-                Photo = photo
-            };
-            ukrzaliznutsaDBEntities.LokomotiveSet.Add(lokomotive);
-            ukrzaliznutsaDBEntities.SaveChanges();
+            Locomotive locomotive = new Locomotive();
+            locomotive.setLocomotive(Name, Type, Velocity, PowerEngin, information, pdf, photo);
         }
 
         public byte[] getTypeLocomotive()
         {
-            List<TypeLocomotiveSet> lokomotives;
-            lokomotives = ukrzaliznutsaDBEntities.TypeLocomotiveSet.ToList();
-            byte[] array = new byte[lokomotives.Count];
-            for (int i = 0; i < lokomotives.Count; i++)
-            {
-                array = Encoding.Default.GetBytes(lokomotives[i].ToString());
-            }
-
-            return array;
+            Locomotive locomotive = new Locomotive();
+            return locomotive.getLocomotive();
         }
 
         public void setLocomotiveType(string type)
         {
-            TypeLocomotiveSet typeLocomotive = new TypeLocomotiveSet
-            {
-                Type = type
-            };
-            ukrzaliznutsaDBEntities.TypeLocomotiveSet.Add(typeLocomotive);
-            ukrzaliznutsaDBEntities.SaveChanges();
+            Locomotive locomotive = new Locomotive();
+            locomotive.setLocomotiveType(type);
         }
 
+        public string[] getLocomotive()
+        {
+            List<LokomotiveSet> lokomotives;
+            lokomotives = ukrzaliznutsaDBEntities.LokomotiveSet.ToList();
+            return lokomotives.AsParallel().Select(x => x.Name).ToArray();
+        }
         public List<string> getMarshruteData()
         {
-            List<string> marshdata;
-            marshrutes = ukrzaliznutsaDBEntities.MarshrutesSet.ToList();
-            marshdata = marshrutes.AsParallel().Select(x => x.NumberTrain+" "+x.Locomotive+" "+x.PointStart+" "+x.PointEnd +" "+x.TypeLocomotive+" "+x.TypeTrain + " "+x.TypeVagon ).ToList();
-            //marshdata = marshdata.Take(10).ToList();
-            return marshdata;
+            List<string> marshrutedata;
+            Marshrutes marshrutes = new Marshrutes();
+            marshrutedata = marshrutes.getMarshrutes();
+            return marshrutedata;
         }
         public void setUserLogin(string login, string pass)
         {
@@ -210,14 +183,6 @@ namespace Association_PAT_Ukrzaliznutsa
             orderlist = orders.AsParallel().Select(x =>x.User+" "+ x.Locomotive + " " + x.Marshrute + " " + x.Number + " " + x.PointStart + " " + x.PointEnd + " " + x.ProdactionInformation + " " + x.PriceOfOrder + " " + x.TypeVagon).ToList();
             //orderlist = orderlist.Take(10).ToList();
             return orderlist;
-        }
-
-
-        public string[] getLocomotive()
-        {
-            List<LokomotiveSet> lokomotives;
-            lokomotives = ukrzaliznutsaDBEntities.LokomotiveSet.ToList();
-            return lokomotives.AsParallel().Select(x => x.Name).ToArray();
         }
 
 

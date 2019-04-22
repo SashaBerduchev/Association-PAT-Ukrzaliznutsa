@@ -208,6 +208,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UkrzaliznytsaEDMX.edmx</DependentUpon>
     </Compile>
+    <Compile Include="UkrzaliznytsaServerServise\Locomotive.cs" />
+    <Compile Include="UkrzaliznytsaServerServise\Marshrutes.cs" />
+    <Compile Include="UkrzaliznytsaServerServise\NaselenuyPunkt.cs" />
     <Compile Include="UkrzaliznytsaServerServise\UZService.cs" />
     <Compile Include="UsersSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>

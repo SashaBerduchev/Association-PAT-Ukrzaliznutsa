@@ -3,23 +3,13 @@ using Association_PAT_UkrzaliznutsaClient.EMail;
 using Association_PAT_UkrzaliznutsaClient.Ticket;
 using Association_PAT_UkrzaliznutsaClient.Windows;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.ServiceModel;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Association_PAT_UkrzaliznutsaClient
 {
@@ -241,7 +231,7 @@ namespace Association_PAT_UkrzaliznutsaClient
 
         private void Listbox_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            contract.getMarshruteWheelMove();
+            contract.getMarshruteData();
         }
 
         private void AddUser_Click(object sender, RoutedEventArgs e)

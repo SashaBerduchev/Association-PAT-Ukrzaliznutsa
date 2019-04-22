@@ -10,11 +10,11 @@ none
 false
 TRACE
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\App.xaml
-1285924692
+13-230703003
 
-22-861250953
+19-1175664284
 141655474873
-EMail\MailWorksWindows.xaml;Login\LoginWindow.xaml;MainWindow.xaml;Ticket\CreateOrderWindow.xaml;Ticket\CreateTicketWindow.xaml;Windows\AddContragentWindow.xaml;Windows\AddLocomotive.xaml;Windows\AddLocomotiveType.xaml;Windows\AddNaselennuyPunkt.xaml;Windows\AddProdaction.xaml;Windows\Locomotiveinfo.xaml;Windows\NaselennuyPunktInfo.xaml;
+EMail\MailWorksWindows.xaml;Login\LoginWindow.xaml;MainWindow.xaml;Ticket\CreateOrderWindow.xaml;Ticket\CreateTicketWindow.xaml;Users\AddUserWindow.xaml;Windows\AddContragentWindow.xaml;Windows\AddLocomotive.xaml;Windows\AddLocomotiveWindow.xaml;Windows\AddNaselennuyPunktWindow.xaml;Windows\AddProdactionWindow.xaml;Windows\Locomotiveinfo.xaml;Windows\NaselennuyPunktInfo.xaml;
 
-True
+False
 
