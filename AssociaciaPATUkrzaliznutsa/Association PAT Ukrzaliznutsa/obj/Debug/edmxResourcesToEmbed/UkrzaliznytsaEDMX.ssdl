@@ -92,6 +92,16 @@
     <Property Name="ProdactionCount" Type="nvarchar(max)" Nullable="false" />
     <Property Name="ProdactionCost" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
   <EntityType Name="TicketSet">
     <Key>
       <PropertyRef Name="Id" />
@@ -159,6 +169,7 @@
     <EntitySet Name="NaselennuyPunktSet" EntityType="Self.NaselennuyPunktSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="OrderSet" EntityType="Self.OrderSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="ProdactionSet" EntityType="Self.ProdactionSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TicketSet" EntityType="Self.TicketSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TrainsInfoSet" EntityType="Self.TrainsInfoSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TrainTypeSet" EntityType="Self.TrainTypeSet" Schema="dbo" store:Type="Tables" />

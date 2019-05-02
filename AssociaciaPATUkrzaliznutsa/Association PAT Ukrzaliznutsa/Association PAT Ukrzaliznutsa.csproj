@@ -175,6 +175,9 @@
     <Compile Include="Service\ListTypeLocomotive.cs" />
     <Compile Include="Service\ListUser.cs" />
     <Compile Include="Service\ListVagonType.cs" />
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
     <Compile Include="TicketSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>

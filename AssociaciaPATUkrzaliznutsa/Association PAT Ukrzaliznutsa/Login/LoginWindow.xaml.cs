@@ -31,9 +31,16 @@ namespace Association_PAT_Ukrzaliznutsa.Login
             serviceHost.AddServiceEndpoint(type, binding, uriAddress);
             serviceHost.Open();
 
-            UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
-            users = ukrzaliznutsaDBEntities.UsersSet.ToList();
-            User.ItemsSource = users.Select(z=>z.Name);
+            try
+            {
+                UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
+                users = ukrzaliznutsaDBEntities.UsersSet.ToList();
+                User.ItemsSource = users.Select(z => z.Name);
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
             Type typer = typeof(LoginWindow);
             Trace.WriteLine(typer.Name);
         }

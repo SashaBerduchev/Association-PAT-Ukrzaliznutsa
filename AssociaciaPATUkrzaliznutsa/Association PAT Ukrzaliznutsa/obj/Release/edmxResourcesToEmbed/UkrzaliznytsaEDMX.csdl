@@ -125,6 +125,7 @@
     <EntitySet Name="OrderSet" EntityType="UkrzaliznutsaDBModel.OrderSet" />
     <EntitySet Name="ProdactionSet" EntityType="UkrzaliznutsaDBModel.ProdactionSet" />
     <EntitySet Name="ComentsSet" EntityType="UkrzaliznutsaDBModel.ComentsSet" />
+    <EntitySet Name="sysdiagrams" EntityType="UkrzaliznutsaDBModel.sysdiagrams" />
   </EntityContainer>
   <EntityType Name="OrderSet">
     <Key>
@@ -165,5 +166,15 @@
     <Property Name="User" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="Marshrute" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="Coment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
   </EntityType>
 </Schema>

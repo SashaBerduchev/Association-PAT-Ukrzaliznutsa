@@ -9,6 +9,9 @@
 
 namespace Association_PAT_Ukrzaliznutsa
 {
+    using System;
+    using System.Collections.Generic;
+    
     public partial class VagonTypeSet
     {
         public int Id { get; set; }

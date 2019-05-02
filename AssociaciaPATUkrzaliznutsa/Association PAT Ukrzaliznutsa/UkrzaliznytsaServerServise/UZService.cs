@@ -1,8 +1,10 @@
 ﻿using Association_PAT_Ukrzaliznutsa.UkrzaliznytsaServerServise;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Windows;
 
 namespace Association_PAT_Ukrzaliznutsa
 {
@@ -227,8 +229,15 @@ namespace Association_PAT_Ukrzaliznutsa
 
         public string[] Users()
         {
-            List<UsersSet> users = ukrzaliznutsaDBEntities.UsersSet.ToList();
-            return users.Select(x => x.Name).ToArray();
+            try
+            {
+                List<UsersSet> users = ukrzaliznutsaDBEntities.UsersSet.ToList();
+                return users.Select(x => x.Name).ToArray();
+            }catch(Exception e)
+            {
+                MessageBox.Show(e.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            return null;
         }
         public void Login(string pass)
         {
