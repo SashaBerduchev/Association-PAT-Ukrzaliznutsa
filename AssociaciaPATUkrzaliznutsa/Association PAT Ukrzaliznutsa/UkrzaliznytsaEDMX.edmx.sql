@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 05/02/2019 16:12:50
--- Generated from EDMX file: D:\Projects\С#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\UkrzaliznytsaEDMX.edmx
+-- Date Created: 06/09/2019 09:39:21
+-- Generated from EDMX file: D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\UkrzaliznytsaEDMX.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -45,6 +45,9 @@ IF OBJECT_ID(N'[dbo].[OrderSet]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[ProdactionSet]', 'U') IS NOT NULL
     DROP TABLE [dbo].[ProdactionSet];
+GO
+IF OBJECT_ID(N'[dbo].[sysdiagrams]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[sysdiagrams];
 GO
 IF OBJECT_ID(N'[dbo].[TicketSet]', 'U') IS NOT NULL
     DROP TABLE [dbo].[TicketSet];
@@ -219,6 +222,36 @@ CREATE TABLE [dbo].[ComentsSet] (
 );
 GO
 
+-- Creating table 'sysdiagrams'
+CREATE TABLE [dbo].[sysdiagrams] (
+    [name] nvarchar(128)  NOT NULL,
+    [principal_id] int  NOT NULL,
+    [diagram_id] int IDENTITY(1,1) NOT NULL,
+    [version] int  NULL,
+    [definition] varbinary(max)  NULL
+);
+GO
+
+-- Creating table 'UnitsOfMeasurementSet'
+CREATE TABLE [dbo].[UnitsOfMeasurementSet] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Name] nvarchar(max)  NOT NULL,
+    [ShortName] nvarchar(max)  NOT NULL
+);
+GO
+
+-- Creating table 'InfoMarshruteSet'
+CREATE TABLE [dbo].[InfoMarshruteSet] (
+    [Id] int IDENTITY(1,1) NOT NULL,
+    [Number] nvarchar(max)  NOT NULL,
+    [PointStart] nvarchar(max)  NOT NULL,
+    [PointEnd] nvarchar(max)  NOT NULL,
+    [ArrayStations] nvarchar(max)  NOT NULL,
+    [Trains] nvarchar(max)  NOT NULL,
+    [Cost] nvarchar(max)  NOT NULL
+);
+GO
+
 -- --------------------------------------------------
 -- Creating all PRIMARY KEY constraints
 -- --------------------------------------------------
@@ -304,6 +337,24 @@ GO
 -- Creating primary key on [Id] in table 'ComentsSet'
 ALTER TABLE [dbo].[ComentsSet]
 ADD CONSTRAINT [PK_ComentsSet]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [diagram_id] in table 'sysdiagrams'
+ALTER TABLE [dbo].[sysdiagrams]
+ADD CONSTRAINT [PK_sysdiagrams]
+    PRIMARY KEY CLUSTERED ([diagram_id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'UnitsOfMeasurementSet'
+ALTER TABLE [dbo].[UnitsOfMeasurementSet]
+ADD CONSTRAINT [PK_UnitsOfMeasurementSet]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
+-- Creating primary key on [Id] in table 'InfoMarshruteSet'
+ALTER TABLE [dbo].[InfoMarshruteSet]
+ADD CONSTRAINT [PK_InfoMarshruteSet]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 

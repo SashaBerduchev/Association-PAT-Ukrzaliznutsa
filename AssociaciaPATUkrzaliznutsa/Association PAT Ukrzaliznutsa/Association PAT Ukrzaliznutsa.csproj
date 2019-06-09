@@ -137,6 +137,9 @@
       <DependentUpon>MailWorksWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="IContract.cs" />
+    <Compile Include="InfoMarshrute.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
     <Compile Include="KlientsSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>
@@ -151,6 +154,9 @@
     </Compile>
     <Compile Include="MarshruteInfoWindow\CreateMarshrute.xaml.cs">
       <DependentUpon>CreateMarshrute.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MarshruteInfoWindow\MarshruteInfoWindow.xaml.cs">
+      <DependentUpon>MarshruteInfoWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MarshrutesSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
@@ -215,6 +221,9 @@
     <Compile Include="UkrzaliznytsaServerServise\Marshrutes.cs" />
     <Compile Include="UkrzaliznytsaServerServise\NaselenuyPunkt.cs" />
     <Compile Include="UkrzaliznytsaServerServise\UZService.cs" />
+    <Compile Include="UnitsOfMeasurement.cs">
+      <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
+    </Compile>
     <Compile Include="UsersSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>
@@ -293,6 +302,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MarshruteInfoWindow\CreateMarshrute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MarshruteInfoWindow\MarshruteInfoWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

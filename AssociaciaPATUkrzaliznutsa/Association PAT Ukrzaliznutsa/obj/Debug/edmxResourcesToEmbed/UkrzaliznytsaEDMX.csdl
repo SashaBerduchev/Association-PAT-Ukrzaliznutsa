@@ -126,6 +126,8 @@
     <EntitySet Name="ProdactionSet" EntityType="UkrzaliznutsaDBModel.ProdactionSet" />
     <EntitySet Name="ComentsSet" EntityType="UkrzaliznutsaDBModel.ComentsSet" />
     <EntitySet Name="sysdiagrams" EntityType="UkrzaliznutsaDBModel.sysdiagrams" />
+    <EntitySet Name="UnitsOfMeasurementSet" EntityType="UkrzaliznutsaDBModel.UnitsOfMeasurement" />
+    <EntitySet Name="InfoMarshruteSet" EntityType="UkrzaliznutsaDBModel.InfoMarshrute" />
   </EntityContainer>
   <EntityType Name="OrderSet">
     <Key>
@@ -176,5 +178,25 @@
     <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="version" Type="Int32" />
     <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="UnitsOfMeasurement">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ShortName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="InfoMarshrute">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Number" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PointStart" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="PointEnd" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="ArrayStations" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Trains" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Cost" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
   </EntityType>
 </Schema>

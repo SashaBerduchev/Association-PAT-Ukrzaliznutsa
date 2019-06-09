@@ -14,6 +14,18 @@
           <Property Name="Marshrute" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Coment" Type="nvarchar(max)" />
         </EntityType>
+        <EntityType Name="InfoMarshruteSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Number" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PointStart" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PointEnd" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ArrayStations" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Trains" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Cost" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
         <EntityType Name="KlientsSet">
           <Key>
             <PropertyRef Name="Id" />
@@ -150,6 +162,14 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Type" Type="nvarchar(max)" Nullable="false" />
         </EntityType>
+        <EntityType Name="UnitsOfMeasurementSet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ShortName" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
         <EntityType Name="UsersSet">
           <Key>
             <PropertyRef Name="Id" />
@@ -167,6 +187,7 @@
         </EntityType>
         <EntityContainer Name="UkrzaliznutsaDBModelStoreContainer">
           <EntitySet Name="ComentsSet" EntityType="Self.ComentsSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="InfoMarshruteSet" EntityType="Self.InfoMarshruteSet" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="KlientsSet" EntityType="Self.KlientsSet" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="LokomotiveSet" EntityType="Self.LokomotiveSet" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="MailSet" EntityType="Self.MailSet" Schema="dbo" store:Type="Tables" />
@@ -179,6 +200,7 @@
           <EntitySet Name="TrainsInfoSet" EntityType="Self.TrainsInfoSet" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TrainTypeSet" EntityType="Self.TrainTypeSet" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TypeLocomotiveSet" EntityType="Self.TypeLocomotiveSet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UnitsOfMeasurementSet" EntityType="Self.UnitsOfMeasurementSet" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UsersSet" EntityType="Self.UsersSet" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="VagonTypeSet" EntityType="Self.VagonTypeSet" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
@@ -312,6 +334,8 @@
           <EntitySet Name="ProdactionSet" EntityType="UkrzaliznutsaDBModel.ProdactionSet" />
           <EntitySet Name="ComentsSet" EntityType="UkrzaliznutsaDBModel.ComentsSet" />
           <EntitySet Name="sysdiagrams" EntityType="UkrzaliznutsaDBModel.sysdiagrams" />
+          <EntitySet Name="UnitsOfMeasurementSet" EntityType="UkrzaliznutsaDBModel.UnitsOfMeasurement" />
+          <EntitySet Name="InfoMarshruteSet" EntityType="UkrzaliznutsaDBModel.InfoMarshrute" />
         </EntityContainer>
         <EntityType Name="OrderSet">
           <Key>
@@ -362,6 +386,26 @@
           <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="version" Type="Int32" />
           <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="UnitsOfMeasurement">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ShortName" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="InfoMarshrute">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Number" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="PointStart" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="PointEnd" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="ArrayStations" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Trains" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Cost" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -533,17 +577,39 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-          <EntitySetMapping Name="sysdiagrams">
-            <EntityTypeMapping TypeName="UkrzaliznutsaDBModel.sysdiagrams">
-              <MappingFragment StoreEntitySet="sysdiagrams">
-                <ScalarProperty Name="definition" ColumnName="definition" />
-                <ScalarProperty Name="version" ColumnName="version" />
-                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
-                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
-                <ScalarProperty Name="name" ColumnName="name" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.sysdiagrams)">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UnitsOfMeasurementSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.UnitsOfMeasurement)">
+        <MappingFragment StoreEntitySet="UnitsOfMeasurementSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ShortName" ColumnName="ShortName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InfoMarshruteSet">
+      <EntityTypeMapping TypeName="IsTypeOf(UkrzaliznutsaDBModel.InfoMarshrute)">
+        <MappingFragment StoreEntitySet="InfoMarshruteSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="PointStart" ColumnName="PointStart" />
+          <ScalarProperty Name="PointEnd" ColumnName="PointEnd" />
+          <ScalarProperty Name="ArrayStations" ColumnName="ArrayStations" />
+          <ScalarProperty Name="Trains" ColumnName="Trains" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping></edmx:Mappings>
   </edmx:Runtime>

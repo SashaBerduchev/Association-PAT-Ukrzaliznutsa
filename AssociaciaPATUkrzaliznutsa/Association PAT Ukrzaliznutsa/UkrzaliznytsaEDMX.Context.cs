@@ -40,5 +40,7 @@ namespace Association_PAT_Ukrzaliznutsa
         public virtual DbSet<ProdactionSet> ProdactionSet { get; set; }
         public virtual DbSet<ComentsSet> ComentsSet { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<UnitsOfMeasurement> UnitsOfMeasurementSet { get; set; }
+        public virtual DbSet<InfoMarshrute> InfoMarshruteSet { get; set; }
     }
 }

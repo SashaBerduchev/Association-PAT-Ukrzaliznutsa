@@ -32,3 +32,20 @@ D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Uk
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.csproj.CopyComplete
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.dll
 D:\Progects\C-SHARP\AssociaciaPATUkrzaliznutsa\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.pdb
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\AssociaciaPATUkrzakiznutsaLibrery.dll.config
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\AssociaciaPATUkrzakiznutsaLibrery.dll
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\AssociaciaPATUkrzakiznutsaLibrery.pdb
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\Association PAT Ukrzaliznutsa.exe
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.dll
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\Association PAT Ukrzaliznutsa.pdb
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\Association PAT Ukrzaliznutsa.exe.config
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.xml
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\ru\EntityFramework.resources.dll
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.csprojAssemblyReference.cache
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.csproj.CoreCompileInputs.cache
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.csproj.CopyComplete
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.dll
+D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\AssociaciaPATUkrzakiznutsaLibrery\obj\Debug\AssociaciaPATUkrzakiznutsaLibrery.pdb

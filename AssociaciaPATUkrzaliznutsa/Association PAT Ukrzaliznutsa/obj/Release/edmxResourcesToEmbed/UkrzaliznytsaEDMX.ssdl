@@ -9,6 +9,18 @@
     <Property Name="Marshrute" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Coment" Type="nvarchar(max)" />
   </EntityType>
+  <EntityType Name="InfoMarshruteSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Number" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PointStart" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PointEnd" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ArrayStations" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Trains" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Cost" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
   <EntityType Name="KlientsSet">
     <Key>
       <PropertyRef Name="Id" />
@@ -145,6 +157,14 @@
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Type" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
+  <EntityType Name="UnitsOfMeasurementSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ShortName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
   <EntityType Name="UsersSet">
     <Key>
       <PropertyRef Name="Id" />
@@ -162,6 +182,7 @@
   </EntityType>
   <EntityContainer Name="UkrzaliznutsaDBModelStoreContainer">
     <EntitySet Name="ComentsSet" EntityType="Self.ComentsSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="InfoMarshruteSet" EntityType="Self.InfoMarshruteSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="KlientsSet" EntityType="Self.KlientsSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="LokomotiveSet" EntityType="Self.LokomotiveSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="MailSet" EntityType="Self.MailSet" Schema="dbo" store:Type="Tables" />
@@ -174,6 +195,7 @@
     <EntitySet Name="TrainsInfoSet" EntityType="Self.TrainsInfoSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TrainTypeSet" EntityType="Self.TrainTypeSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TypeLocomotiveSet" EntityType="Self.TypeLocomotiveSet" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UnitsOfMeasurementSet" EntityType="Self.UnitsOfMeasurementSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UsersSet" EntityType="Self.UsersSet" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="VagonTypeSet" EntityType="Self.VagonTypeSet" Schema="dbo" store:Type="Tables" />
   </EntityContainer>

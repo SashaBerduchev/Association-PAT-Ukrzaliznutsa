@@ -25,15 +25,12 @@ namespace Association_PAT_UkrzaliznutsaClient.Login
         IContract contract;
         public LoginWindow()
         {
-            
-
+            InitializeComponent();
             Uri uri = new Uri("net.tcp://localhost:4000/IContract");
             NetTcpBinding netTcpBinding = new NetTcpBinding();
             EndpointAddress endpoint = new EndpointAddress(uri);
             ChannelFactory<IContract> factory = new ChannelFactory<IContract>(netTcpBinding, endpoint);
             contract = factory.CreateChannel();
-
-            InitializeComponent();
             User.ItemsSource = contract.Users();
             Type type = typeof(LoginWindow);
             Trace.WriteLine(type.Name);

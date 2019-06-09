@@ -9,7 +9,7 @@
         <EntityTypeShape EntityType="UkrzaliznutsaDBModel.LokomotiveSet" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="UkrzaliznutsaDBModel.MailSet" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="UkrzaliznutsaDBModel.MarshrutesSet" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="UkrzaliznutsaDBModel.NaselennuyPunktSet" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UkrzaliznutsaDBModel.NaselennuyPunktSet" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
         <EntityTypeShape EntityType="UkrzaliznutsaDBModel.TicketSet" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="UkrzaliznutsaDBModel.TrainsInfoSet" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="UkrzaliznutsaDBModel.TrainTypeSet" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
@@ -20,6 +20,8 @@
         <EntityTypeShape EntityType="UkrzaliznutsaDBModel.ProdactionSet" Width="1.5" PointX="9.375" PointY="5.75" />
         <EntityTypeShape EntityType="UkrzaliznutsaDBModel.ComentsSet" Width="1.5" PointX="9.375" PointY="8.75" />
         <EntityTypeShape EntityType="UkrzaliznutsaDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="10.75" />
+        <EntityTypeShape EntityType="UkrzaliznutsaDBModel.UnitsOfMeasurement" Width="1.5" PointX="4.5" PointY="10.125" />
+        <EntityTypeShape EntityType="UkrzaliznutsaDBModel.InfoMarshrute" Width="1.5" PointX="2.5" PointY="4.875" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

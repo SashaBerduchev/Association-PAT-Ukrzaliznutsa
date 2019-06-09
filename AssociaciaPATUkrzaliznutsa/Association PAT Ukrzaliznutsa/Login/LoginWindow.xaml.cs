@@ -31,6 +31,25 @@ namespace Association_PAT_Ukrzaliznutsa.Login
             serviceHost.AddServiceEndpoint(type, binding, uriAddress);
             serviceHost.Open();
 
+            //костыль если база пустая
+            try
+            {
+                UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
+                users = ukrzaliznutsaDBEntities.UsersSet.ToList();
+                if (users.Count < 1)
+                {
+                    UsersSet user = new UsersSet
+                    {
+                        Name = "Admin", Password = ""
+                    };
+                    ukrzaliznutsaDBEntities.UsersSet.Add(user);
+                    ukrzaliznutsaDBEntities.SaveChanges();
+                }
+            }
+            catch(Exception exp)
+            {
+                MessageBox.Show(exp.ToString(), "Exaption", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
             try
             {
                 UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();

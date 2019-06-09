@@ -22,6 +22,7 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <ComboBox Name="NumberTrain" Grid.Row="0" Margin="144,10,10,10"/>
         <ComboBox Name="PointStart" Grid.Row="1" Margin="144,10,10,10"/>
@@ -40,7 +41,8 @@
         <TextBlock HorizontalAlignment="Left" Margin="33,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Grid.Row="6"><Run Text="Тип вагона"/><LineBreak/><Run/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="28,17,0,0" TextWrapping="Wrap" Text="Локомотив" VerticalAlignment="Top" Width="111" Grid.Row="5"/>
         <TextBlock HorizontalAlignment="Left" Margin="33,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106" Grid.Row="4" Height="22"><Run Text="Тип локомотива"/><LineBreak/><Run/></TextBlock>
-        <TextBox Name="textPoint" HorizontalAlignment="Left" Height="27" Margin="33,10,0,0" Grid.Row="10" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="403"/>
+        <Button Name="btnInfo"  Content="Информация о маршруте" Grid.Row="10" Margin="8" Click="BtnInfo_Click" />
+        <TextBox Name="textPoint" HorizontalAlignment="Left" Height="27" Margin="33,10,0,0" Grid.Row="11" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="403"/>
 
     </Grid>
 </Window>

@@ -115,6 +115,15 @@ namespace Association_PAT_Ukrzaliznutsa.MarshruteInfoWindow
             });
         }
 
-
+        private void BtnInfo_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                new MarshruteInfoWindow(NumberTrain.SelectedItem.ToString(), PointStart.SelectedItem.ToString(), PointEnd.SelectedItem.ToString()).Show();
+            }catch (Exception exp)
+            {
+                MessageBox.Show(exp.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
     }
 }
