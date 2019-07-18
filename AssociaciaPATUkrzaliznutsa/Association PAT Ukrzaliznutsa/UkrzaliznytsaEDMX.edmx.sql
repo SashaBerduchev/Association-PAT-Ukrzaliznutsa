@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 06/09/2019 09:39:21
--- Generated from EDMX file: D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\UkrzaliznytsaEDMX.edmx
+-- Date Created: 07/18/2019 10:51:27
+-- Generated from EDMX file: E:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\UkrzaliznytsaEDMX.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -24,6 +24,9 @@ GO
 
 IF OBJECT_ID(N'[dbo].[ComentsSet]', 'U') IS NOT NULL
     DROP TABLE [dbo].[ComentsSet];
+GO
+IF OBJECT_ID(N'[dbo].[InfoMarshruteSet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[InfoMarshruteSet];
 GO
 IF OBJECT_ID(N'[dbo].[KlientsSet]', 'U') IS NOT NULL
     DROP TABLE [dbo].[KlientsSet];
@@ -60,6 +63,9 @@ IF OBJECT_ID(N'[dbo].[TrainTypeSet]', 'U') IS NOT NULL
 GO
 IF OBJECT_ID(N'[dbo].[TypeLocomotiveSet]', 'U') IS NOT NULL
     DROP TABLE [dbo].[TypeLocomotiveSet];
+GO
+IF OBJECT_ID(N'[dbo].[UnitsOfMeasurementSet]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[UnitsOfMeasurementSet];
 GO
 IF OBJECT_ID(N'[dbo].[UsersSet]', 'U') IS NOT NULL
     DROP TABLE [dbo].[UsersSet];
