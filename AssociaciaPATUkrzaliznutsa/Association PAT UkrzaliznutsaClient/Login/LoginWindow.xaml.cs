@@ -60,6 +60,10 @@ namespace Association_PAT_UkrzaliznutsaClient.Login
                 this.Close();
             }
         }
-        
+
+        private void User_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

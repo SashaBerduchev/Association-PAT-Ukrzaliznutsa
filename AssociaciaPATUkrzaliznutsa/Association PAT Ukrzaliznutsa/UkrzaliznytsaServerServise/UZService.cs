@@ -227,12 +227,12 @@ namespace Association_PAT_Ukrzaliznutsa
             return marshdata;
         }
 
-        public string[] Users()
+        public List<string> Users()
         {
             try
             {
-                List<UsersSet> users = ukrzaliznutsaDBEntities.UsersSet.ToList();
-                return users.Select(x => x.Name).ToArray();
+                List<string> users = ukrzaliznutsaDBEntities.UsersSet.Select(x => x.Name).ToList();
+                return users;
             }catch(Exception e)
             {
                 MessageBox.Show(e.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);

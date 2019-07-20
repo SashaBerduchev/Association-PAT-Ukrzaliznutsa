@@ -55,7 +55,7 @@ namespace Association_PAT_UkrzaliznutsaClient
         [OperationContract]
         void Login(string pass);
         [OperationContract]
-        string[] Users();
+        List<string> Users();
         [OperationContract]
         void Delete(string user);
     }

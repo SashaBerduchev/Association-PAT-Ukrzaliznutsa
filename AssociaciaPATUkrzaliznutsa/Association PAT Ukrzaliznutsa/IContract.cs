@@ -60,8 +60,10 @@ namespace Association_PAT_Ukrzaliznutsa
         [OperationContract]
         void Login(string pass);
         [OperationContract]
-        string[] Users();
+        List<string> Users();
         [OperationContract]
         void Delete(string user);
+    
+        
     };
 }

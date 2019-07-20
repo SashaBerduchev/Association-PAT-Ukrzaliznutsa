@@ -13,7 +13,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <ComboBox Name="User" Grid.Row="0" Margin="117,30,30,30" />
+        <ComboBox Name="User" Grid.Row="0" Margin="117,30,30,30" SelectionChanged="User_SelectionChanged" />
         <PasswordBox Name="Pass" Grid.Row="1" Margin="117,30,30,30" />
         <Button Name="btnLogin" Content="Вход" Grid.Row="2" Margin="30" Click="BtnLogin_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="49,36,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" Height="17" Width="68"/>
