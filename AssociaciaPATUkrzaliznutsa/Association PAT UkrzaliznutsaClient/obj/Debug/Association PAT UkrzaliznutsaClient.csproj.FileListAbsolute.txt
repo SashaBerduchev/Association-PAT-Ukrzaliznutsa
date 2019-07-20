@@ -297,3 +297,42 @@ D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzali
 D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.csproj.CoreCompileInputs.cache
 D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.exe
 D:\Projects\C#\SashaBerduchev\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.pdb
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Debug\Association PAT UkrzaliznutsaClient.exe.config
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Debug\Association PAT UkrzaliznutsaClient.exe
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\bin\Debug\Association PAT UkrzaliznutsaClient.pdb
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.csprojAssemblyReference.cache
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\EMail\MailWorksWindows.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Login\LoginWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\MainWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Ticket\CreateOrderWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Ticket\CreateTicketWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Users\AddUserWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\AddContragentWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\AddLocomotive.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\AddLocomotiveWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\AddNaselennuyPunktWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\AddProdactionWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\Locomotiveinfo.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\NaselennuyPunktInfo.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\App.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient_MarkupCompile.cache
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient_MarkupCompile.lref
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\EMail\MailWorksWindows.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Login\LoginWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\MainWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Ticket\CreateOrderWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Ticket\CreateTicketWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Users\AddUserWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\AddContragentWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\AddLocomotive.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\AddLocomotiveWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\AddNaselennuyPunktWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\AddProdactionWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\Locomotiveinfo.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Windows\NaselennuyPunktInfo.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.g.resources
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association_PAT_UkrzaliznutsaClient.Properties.Resources.resources
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.csproj.GenerateResource.cache
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.csproj.CoreCompileInputs.cache
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.exe
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\Association PAT UkrzaliznutsaClient.pdb

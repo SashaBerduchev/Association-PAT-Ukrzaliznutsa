@@ -31,7 +31,13 @@ namespace Association_PAT_UkrzaliznutsaClient.Login
             EndpointAddress endpoint = new EndpointAddress(uri);
             ChannelFactory<IContract> factory = new ChannelFactory<IContract>(netTcpBinding, endpoint);
             contract = factory.CreateChannel();
-            User.ItemsSource = contract.Users();
+            try
+            {
+                User.ItemsSource = contract.Users();
+            }catch(Exception exp)
+            {
+                MessageBox.Show(exp.ToString(), "Warning", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
             Type type = typeof(LoginWindow);
             Trace.WriteLine(type.Name);
         }
@@ -44,7 +50,8 @@ namespace Association_PAT_UkrzaliznutsaClient.Login
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
                 this.Close();
-            }catch(Exception exp)
+            }
+            catch (Exception exp)
             {
                 MessageBox.Show("Не верный пароль", "Warning", MessageBoxButton.OK, MessageBoxImage.Error);
                 string expstr = exp.ToString();
@@ -61,9 +68,31 @@ namespace Association_PAT_UkrzaliznutsaClient.Login
             }
         }
 
-        private void User_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void Pass_KeyDown(object sender, KeyEventArgs e)
         {
+            try
+            {
+                contract.Login(Pass.Password);
+                MainWindow mainWindow = new MainWindow();
+                mainWindow.Show();
+                this.Close();
+            }
+            catch (Exception exp)
+            {
+                MessageBox.Show("Не верный пароль", "Warning", MessageBoxButton.OK, MessageBoxImage.Error);
+                string expstr = exp.ToString();
+                FileStream fileStreamLog = new FileStream(@"Connection.log", FileMode.Append);
+                for (int i = 0; i < expstr.Length; i++)
+                {
+                    byte[] array = Encoding.Default.GetBytes(expstr.ToString());
+                    fileStreamLog.Write(array, 0, array.Length);
+                }
+                fileStreamLog.Close();
 
+                new LoginWindow().Show();
+                this.Close();
+            }
+        
         }
     }
 }

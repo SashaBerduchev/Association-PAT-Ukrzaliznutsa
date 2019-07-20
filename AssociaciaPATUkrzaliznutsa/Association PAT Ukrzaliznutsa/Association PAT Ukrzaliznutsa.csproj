@@ -152,10 +152,10 @@
     <Compile Include="MailSet.cs">
       <DependentUpon>UkrzaliznytsaEDMX.tt</DependentUpon>
     </Compile>
-    <Compile Include="MarshruteInfoWindow\CreateMarshrute.xaml.cs">
+    <Compile Include="Login\MarshruteInfoWindow\CreateMarshrute.xaml.cs">
       <DependentUpon>CreateMarshrute.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MarshruteInfoWindow\MarshruteInfoWindow.xaml.cs">
+    <Compile Include="Login\MarshruteInfoWindow\MarshruteInfoWindow.xaml.cs">
       <DependentUpon>MarshruteInfoWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MarshrutesSet.cs">
@@ -301,11 +301,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MarshruteInfoWindow\CreateMarshrute.xaml">
+    <Page Include="Login\MarshruteInfoWindow\CreateMarshrute.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MarshruteInfoWindow\MarshruteInfoWindow.xaml">
+    <Page Include="Login\MarshruteInfoWindow\MarshruteInfoWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

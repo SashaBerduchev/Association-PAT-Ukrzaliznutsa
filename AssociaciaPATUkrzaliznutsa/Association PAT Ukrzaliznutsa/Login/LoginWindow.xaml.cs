@@ -96,6 +96,42 @@ namespace Association_PAT_Ukrzaliznutsa.Login
                 fileStreamLog.Close();
             }
         }
-        
+
+        private void Pass_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == System.Windows.Input.Key.Enter)
+            {
+                try
+                {
+                    UkrzaliznutsaDBEntities ukrzaliznutsaDBEntities = new UkrzaliznutsaDBEntities();
+                    //UsersSet users = new UsersSet
+                    //{
+                    //    Name = User.SelectedItem.ToString(),
+                    //    Password = Pass.Password
+                    //};
+                    //ukrzaliznutsaDBEntities.UsersSet.Add(users);
+                    //ukrzaliznutsaDBEntities.SaveChanges();
+
+                    UsersSet user = ukrzaliznutsaDBEntities.UsersSet.Where(x => x.Password == Pass.Password).First();
+                    MainWindow mainWindow = new MainWindow();
+                    mainWindow.Show();
+                    this.Close();
+                }
+                catch (Exception exp)
+                {
+                    MessageBox.Show("Не верный пароль", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    string expstr = exp.ToString();
+                    FileStream fileStreamLog = new FileStream(@"Connection.log", FileMode.Append);
+                    for (int i = 0; i < expstr.Length; i++)
+                    {
+                        byte[] array = Encoding.Default.GetBytes(expstr.ToString());
+                        fileStreamLog.Write(array, 0, array.Length);
+
+                    }
+
+                    fileStreamLog.Close();
+                }
+            }
+        }
     }
 }
