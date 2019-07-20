@@ -480,3 +480,66 @@ E:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzal
 E:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.csproj.CopyComplete
 E:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.exe
 E:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.pdb
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\Association PAT Ukrzaliznutsa.exe.config
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\Association PAT Ukrzaliznutsa.exe
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\Association PAT Ukrzaliznutsa.pdb
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\EntityFramework.dll
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\EntityFramework.SqlServer.dll
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\Oracle.ManagedDataAccess.dll
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\EntityFramework.xml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\EntityFramework.SqlServer.xml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\ru\EntityFramework.resources.dll
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\bin\Release\ru\EntityFramework.SqlServer.resources.dll
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.csprojAssemblyReference.cache
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddContragentWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddLocomotiveWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddMailWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddNaselennuyPunktWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddProdactionWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddTrainsInfoWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddTypeLocomotiveWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddVagonTypeWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\LocomotiveInformationWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\MailInfoWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\NaselennuyPunktInfoWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\TrainsInformationWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\EMail\MailWorksWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Login\LoginWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MainWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MarshruteInfoWindow\CreateMarshrute.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MarshruteInfoWindow\MarshruteInfoWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Tickets\CreateOrderWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Tickets\CreateTicketWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Users\AddUserWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\App.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa_Content.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa_MarkupCompile.cache
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa_MarkupCompile.lref
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddContragentWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddLocomotiveWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddMailWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddNaselennuyPunktWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddProdactionWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddTrainsInfoWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddTypeLocomotiveWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\AddVagonTypeWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\LocomotiveInformationWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\MailInfoWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\NaselennuyPunktInfoWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\AddingInformationWindow\TrainsInformationWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\EMail\MailWorksWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Login\LoginWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MainWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MarshruteInfoWindow\CreateMarshrute.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MarshruteInfoWindow\MarshruteInfoWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Tickets\CreateOrderWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Tickets\CreateTicketWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Users\AddUserWindow.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.g.resources
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association_PAT_Ukrzaliznutsa.Properties.Resources.resources
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.csproj.GenerateResource.cache
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.csproj.CoreCompileInputs.cache
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.csproj.CopyComplete
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.exe
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.pdb

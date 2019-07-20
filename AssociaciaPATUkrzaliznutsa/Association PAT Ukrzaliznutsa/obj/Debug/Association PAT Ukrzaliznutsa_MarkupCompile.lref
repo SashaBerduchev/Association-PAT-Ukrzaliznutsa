@@ -1,23 +1,23 @@
 ﻿
 
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddContragentWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddLocomotiveWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddMailWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddNaselennuyPunktWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddProdactionWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddTrainsInfoWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddTypeLocomotiveWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddVagonTypeWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\LocomotiveInformationWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\MailInfoWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\NaselennuyPunktInfoWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\TrainsInformationWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\EMail\MailWorksWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\Login\LoginWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\MainWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\MarshruteInfoWindow\CreateMarshrute.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\MarshruteInfoWindow\MarshruteInfoWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\Tickets\CreateOrderWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\Tickets\CreateTicketWindow.xaml;;
-FE:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\Users\AddUserWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddContragentWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddLocomotiveWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddMailWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddNaselennuyPunktWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddProdactionWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddTrainsInfoWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddTypeLocomotiveWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\AddVagonTypeWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\LocomotiveInformationWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\MailInfoWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\NaselennuyPunktInfoWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\AddingInformationWindow\TrainsInformationWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\EMail\MailWorksWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\Login\LoginWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\MainWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\MarshruteInfoWindow\CreateMarshrute.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\MarshruteInfoWindow\MarshruteInfoWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\Tickets\CreateOrderWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\Tickets\CreateTicketWindow.xaml;;
+FD:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\Users\AddUserWindow.xaml;;
 

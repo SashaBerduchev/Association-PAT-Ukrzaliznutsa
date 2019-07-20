@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Debug\
 Association_PAT_Ukrzaliznutsa
 none
 false
 DEBUG;TRACE
-E:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\App.xaml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\App.xaml
 20-89518334
 3-1901073361
-64-862590226
-23962836412
+61567078690
+23-617976558
 AddingInformationWindow\AddContragentWindow.xaml;AddingInformationWindow\AddLocomotiveWindow.xaml;AddingInformationWindow\AddMailWindow.xaml;AddingInformationWindow\AddNaselennuyPunktWindow.xaml;AddingInformationWindow\AddProdactionWindow.xaml;AddingInformationWindow\AddTrainsInfoWindow.xaml;AddingInformationWindow\AddTypeLocomotiveWindow.xaml;AddingInformationWindow\AddVagonTypeWindow.xaml;AddingInformationWindow\LocomotiveInformationWindow.xaml;AddingInformationWindow\MailInfoWindow.xaml;AddingInformationWindow\NaselennuyPunktInfoWindow.xaml;AddingInformationWindow\TrainsInformationWindow.xaml;EMail\MailWorksWindow.xaml;Login\LoginWindow.xaml;MainWindow.xaml;MarshruteInfoWindow\CreateMarshrute.xaml;MarshruteInfoWindow\MarshruteInfoWindow.xaml;Tickets\CreateOrderWindow.xaml;Tickets\CreateTicketWindow.xaml;Users\AddUserWindow.xaml;
 
 True

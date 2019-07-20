@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-E:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\obj\Debug\
 Association_PAT_UkrzaliznutsaClient
 none
 false
 DEBUG;TRACE
-E:\ZaliznytsaBerdichevaRedlina\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\App.xaml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT UkrzaliznutsaClient\App.xaml
 13-230703003
 
-23-630381261
+20799287655
 141655474873
 EMail\MailWorksWindows.xaml;Login\LoginWindow.xaml;MainWindow.xaml;Ticket\CreateOrderWindow.xaml;Ticket\CreateTicketWindow.xaml;Users\AddUserWindow.xaml;Windows\AddContragentWindow.xaml;Windows\AddLocomotive.xaml;Windows\AddLocomotiveWindow.xaml;Windows\AddNaselennuyPunktWindow.xaml;Windows\AddProdactionWindow.xaml;Windows\Locomotiveinfo.xaml;Windows\NaselennuyPunktInfo.xaml;
 
