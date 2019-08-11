@@ -507,8 +507,6 @@ D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrz
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\EMail\MailWorksWindow.g.cs
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Login\LoginWindow.g.cs
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MainWindow.g.cs
-D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MarshruteInfoWindow\CreateMarshrute.g.cs
-D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MarshruteInfoWindow\MarshruteInfoWindow.g.cs
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Tickets\CreateOrderWindow.g.cs
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Tickets\CreateTicketWindow.g.cs
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Users\AddUserWindow.g.cs
@@ -531,8 +529,6 @@ D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrz
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\EMail\MailWorksWindow.baml
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Login\LoginWindow.baml
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MainWindow.baml
-D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MarshruteInfoWindow\CreateMarshrute.baml
-D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\MarshruteInfoWindow\MarshruteInfoWindow.baml
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Tickets\CreateOrderWindow.baml
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Tickets\CreateTicketWindow.baml
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Users\AddUserWindow.baml
@@ -543,3 +539,7 @@ D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrz
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.csproj.CopyComplete
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.exe
 D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Association PAT Ukrzaliznutsa.pdb
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Login\MarshruteInfoWindow\CreateMarshrute.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Login\MarshruteInfoWindow\MarshruteInfoWindow.g.cs
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Login\MarshruteInfoWindow\CreateMarshrute.baml
+D:\Association-PAT-Ukrzaliznutsa\AssociaciaPATUkrzaliznutsa\Association PAT Ukrzaliznutsa\obj\Release\Login\MarshruteInfoWindow\MarshruteInfoWindow.baml
